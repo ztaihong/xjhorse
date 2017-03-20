@@ -1,5 +1,5 @@
 # xjhorse
-##新疆马产业科技创新平台  
+## 新疆马产业科技创新平台  
 Django新疆马产业科技创新平台项目源代码资源库
 - 新疆维吾尔自治区重大科技专项<br>
 - 马产业升级技术创新工程<br>
@@ -17,14 +17,14 @@ Django新疆马产业科技创新平台项目源代码资源库
 - JRE: 1.8.0_112-release-408-b6 x86_64
 
 ## 四、本地开发
-#####1、安装Java Platform (JDK) 8u121
-#####2、安装Pycharm 2016.3.3 Professional Edtion
-#####3、安装Python 3.6
-#####4、安装virtualenv
+##### 1、安装Java Platform (JDK) 8u121
+##### 2、安装Pycharm 2016.3.3 Professional Edtion
+##### 3、安装Python 3.6
+##### 4、安装virtualenv
     $pip3 install virtualenv
-#####4、克隆项目到本地计算机：
+##### 5、克隆项目到本地计算机：
     $git clone https://github.com/ztaihong/xjhorse.git
-#####5、使用Pycharm打开项目
+##### 6、使用Pycharm打开项目
 
 　克隆完成后会在本地计算机创建xjhorse目录，其中包含项目的全部文件。
 
