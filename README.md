@@ -1,25 +1,40 @@
 # xjhorse
-新疆马产业科技创新平台  
+##新疆马产业科技创新平台  
 Django新疆马产业科技创新平台项目源代码资源库
+- 新疆维吾尔自治区重大科技专项<br>
+- 马产业升级技术创新工程<br>
+- 课题5:马产业科技创新平台建设
 
-本地开环境：  
-Python       3.6.0  
-Django       1.10.6 
-django-jinja 2.2.2  
-Jinja2       2.9.5  
-MarkupSafe   1.0    
-pip          9.0.1  
-setuptools   28.8.0  
+## 一、Python版本  
+- Python       3.6.0
+## 二、Python Package（Python包）依赖
+- django>=1.10.6          # Web App框架
+- django-allauth>=0.31.0  # 用户管理框架，包括注册、登录、账户管理、第三方（社交）账户登录
+- django-uuidfield        # 为django models 提供了UUIDField
+- django-bootstrap3       # 让django模板输出Bootstrap 3代码以满足响应式设计要求
+## 三、集成开发环境 
+- PyCharm 2016.3.3 Professional Edtion  
+- JRE: 1.8.0_112-release-408-b6 x86_64
 
-PyCharm 2016.3.3 Professional Edtion  
-JRE: 1.8.0_112-release-408-b6 x86_64
+## 四、本地开发
+#####1、安装Java Platform (JDK) 8u121
+#####2、安装Pycharm 2016.3.3 Professional Edtion
+#####3、安装Python 3.6
+#####4、安装virtualenv
+    $pip3 install virtualenv
+#####4、克隆项目到本地计算机：
+    $git clone https://github.com/ztaihong/xjhorse.git
+#####5、使用Pycharm打开项目
 
+　克隆完成后会在本地计算机创建xjhorse目录，其中包含项目的全部文件。
 
-克隆到本地计算机：
-git clone https://github.com/ztaihong/xjhorse.git
+　运行PyCharm PE，在【Welcome to PyCharm对话框】选择【Open】，找到xjhorse目录打开项目
 
-克隆完成后会在本地计算机创建xjhorse目录，其中包含项目的全部文件
-
-运行PyCharm PE  
-在【Welcome to PyCharm对话框】选择【Open】  
-找到xjhorse目录打开项目
+## 五、课题承担单位
+①新疆农业大学<br>
+②伊犁哈萨克自治州昭苏马场<br>
+③新疆维吾尔自治区地方国营伊犁种马场<br>
+④昭苏县西域马业有限责任公司<br>
+⑤新疆马业协会<br>
+## 六、课题负责人
+张太红

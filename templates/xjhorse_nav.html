@@ -3,7 +3,6 @@
   日期：2017年03月17日
 *****************************************************************************************-->
 
-
 <!-- 顶部静态导航栏 -->
 <nav class="navbar navbar-toggler navbar-default navbar-static-top">
     <div class="container">
@@ -29,7 +28,7 @@
         <!-- 一下内容在手机等小屏幕导航栏折叠后将从导航栏消失，通过点击右侧按钮可以展开 -->
         <div id="collapsed-menu" class="navbar-collapse collapse"><!-- 折叠内容开始 -->
             <!-- 左对齐 -->
-            <ul  id="nav-list" class="nav navbar-nav navbar-left">
+            <ul id="nav-list" class="nav navbar-nav navbar-left">
                 <li class="active"><a href="{% url 'home' %}">首页</a></li>
                 <li><a href="#contact">品系登记</a></li>
                 <li><a href="#contact">马场管理</a></li>
@@ -37,9 +36,14 @@
                 <li><a href="#contact">精彩赛事</a></li>
             </ul>
             <!-- 右对齐 -->
-            <ul  id="nav-list" class="nav navbar-nav navbar-right">
-                <li><a href="./">注册 <span class="sr-only">(current)</span></a></li>
-                <li><a href="../navbar-fixed-top/">登录</a></li>
+            <ul id="nav-list" class="nav navbar-nav navbar-right">
+                {% if not user.is_authenticated %}
+                    <li><a href="{% url 'account_signup' %}">注册 <span class="sr-only">(current)</span></a></li>
+                    <li><a href="{% url 'account_login' %}">登录</a></li>
+                {% else %}
+                    <li><p>{{ user.email }}</p></li>
+                    <li><a href="{% url 'account_logout' %}">注销</a></li>
+                {% endif %}
             </ul>
         </div><!-- 折叠内容结束 -->
     </div>

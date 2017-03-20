@@ -15,8 +15,12 @@ Including another URLconf
 """
 from django.conf.urls import url, include # Add include to the imports here
 from django.contrib import admin
+from django.views.generic import TemplateView
 
 urlpatterns = [
+
     url(r'^admin/', admin.site.urls),
+    # allauth在django需要以下配置
+    url(r'^accounts/', include('allauth.urls')),
     url(r'^', include('homePage.urls')),  # 读入homePage app中的urls.py
 ]
