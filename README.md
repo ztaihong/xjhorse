@@ -26,9 +26,16 @@ Django新疆马产业科技创新平台项目源代码资源库
     $git clone https://github.com/ztaihong/xjhorse.git
 ##### 6、使用Pycharm打开项目
 
-　克隆完成后会在本地计算机创建xjhorse目录，其中包含项目的全部文件。
+克隆完成后会在本地计算机创建xjhorse目录，其中包含项目的全部文件。
 
-　运行PyCharm PE，在【Welcome to PyCharm对话框】选择【Open】，找到xjhorse目录打开项目
+运行PyCharm PE，在【Welcome to PyCharm对话框】选择【Open】，找到xjhorse目录打开项目
+
+##### 7、创建virtualenv
+在PyCharm的【Preferences】选择【Project：xjhorse→【Project Intepreter】
+点击Project Intepreter下拉选项右侧的设置···按钮，选择【Create VirtualEnv】
+然后将项目的Project Intepreter选择为您创建的虚拟环境（virtualenv）
+
+菜单【run】→【Edit Configurations】将Python Interpreter选择为您创建的虚拟环境（virtualenv）
 
 ## 五、课题承担单位
 ①新疆农业大学<br>
