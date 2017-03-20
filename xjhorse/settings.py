@@ -24,7 +24,7 @@ SECRET_KEY = '_d*=$^f+c2)t@_7h9f4p(u%ijkq@_2aqy=8w=8+&8zkxy&ld-%'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['www.xjhorse.net']
 
 # Application definition
 AUTHENTICATION_BACKENDS = (
@@ -77,7 +77,7 @@ MIDDLEWARE = [
 ROOT_URLCONF = 'xjhorse.urls'
 
 # allauth在django需要以下配置
-SITE_ID = 2
+SITE_ID = 1
 # 登录成功后重定向URL
 LOGIN_REDIRECT_URL = '/'
 
