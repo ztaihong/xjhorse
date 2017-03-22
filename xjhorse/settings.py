@@ -58,6 +58,7 @@ INSTALLED_APPS = [
     'allauth.socialaccount.providers.facebook',  # 脸谱
     'allauth.socialaccount.providers.google',    # 谷歌
     'allauth.socialaccount.providers.github',    # github
+    #'allauth.socialaccount.providers.taobao',    # github
 
 
      # 新疆马业首页
@@ -108,7 +109,7 @@ EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 TEMPLATES = [
     {
         "BACKEND": "django.template.backends.django.DjangoTemplates",
-        "DIRS": [os.path.join(BASE_DIR, 'templates'), os.path.join(BASE_DIR, 'templates', 'allauth'), ],
+        "DIRS": [os.path.join(BASE_DIR, 'templates'), ],
         "APP_DIRS": True,
         "OPTIONS": {
             "context_processors": [

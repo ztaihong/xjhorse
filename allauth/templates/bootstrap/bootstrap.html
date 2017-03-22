@@ -23,7 +23,16 @@
     {% include "xjhorse_nav.html" %}
 {% endblock %}
 
-{% block content %}{% endblock %}
+{% block content %}
+    <div class="container">
+        <div class="row">
+            <div id="account_inner" class="col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2 big-box">
+                {% block inner-content %}
+                {% endblock %}
+            </div>
+        </div>
+    </div>
+{% endblock %}
 
 {% block footer %}
     {% include "xjhorse_footer.html" %}
