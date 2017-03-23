@@ -28,7 +28,7 @@ class BaiduProvider(OAuth2Provider):
 
     def extract_common_fields(self, data):
         return dict(username=data.get('uid'),
-                    name=data.get('uname'))
+                    email=data.get('uname'))
 
 
 provider_classes = [BaiduProvider]
