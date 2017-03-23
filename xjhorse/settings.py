@@ -52,13 +52,15 @@ INSTALLED_APPS = [
     'allauth',
     'allauth.account',
     'allauth.socialaccount',
+    'allauth.socialaccount.providers.taobao',    # 淘宝
     'allauth.socialaccount.providers.baidu',     # 百度
-    'allauth.socialaccount.providers.douban',    # 豆瓣
+
+    #'allauth.socialaccount.providers.douban',  # 豆瓣
     'allauth.socialaccount.providers.weixin',    # 微信
     'allauth.socialaccount.providers.facebook',  # 脸谱
     'allauth.socialaccount.providers.google',    # 谷歌
     'allauth.socialaccount.providers.github',    # github
-    #'allauth.socialaccount.providers.taobao',    # github
+
 
 
      # 新疆马业首页
