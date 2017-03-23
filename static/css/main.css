@@ -221,16 +221,16 @@ hr {
     padding-right: 8px;
 }
 
-/* 豆瓣 */
-.socialaccount_providers li a.socialaccount_provider.douban {
-    background: #a6e1ec; /* technically gradient down to #3A579A */
-    color: green;
+/* 淘宝 */
+.socialaccount_providers li a.socialaccount_provider.taobao {
+    background: #e07f2e;
+    color: #fff;
 }
 
-.socialaccount_providers li a.socialaccount_provider.douban:before {
+.socialaccount_providers li a.socialaccount_provider.taobao:before {
     /*font-family: FontAwesome;*/
     font-size: 1.9em;
-    content: "豆";
+    content: "淘";
     display: inline-block;
     padding-left: 8px;
     padding-right: 8px;
