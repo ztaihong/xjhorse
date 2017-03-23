@@ -1,4 +1,9 @@
-django>=1.10.6          # Web App框架
-django-allauth>=0.31.0  # 用户管理框架，包括注册、登录、账户管理、第三方（社交）账户登录
-django-uuidfield        # 为django models 提供了UUIDField
-django-bootstrap3       # 让django模板输出Bootstrap 3代码以满足响应式设计要求
+django>=1.10.6                # Web App框架
+django-bootstrap3>=8.2.1      # 让django模板输出Bootstrap 3代码以满足响应式设计要求
+oauthlib>=2.0.2
+python3-openid>=3.1.0
+requests>=2.13.0
+requests-oauthlib>=0.8.0
+defusedxml>=0.5.0
+# django-allauth>=0.31.0      # 用户管理框架，包括注册、登录、账户管理、第三方（社交）账户登录
+django-uuidfield>=0.5.0       # 为django models 提供了UUIDField

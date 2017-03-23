@@ -36,11 +36,12 @@
 }
 
 /** 导航栏菜单、按钮 **/
-#nav-list a{
+#nav-list a {
     color: #951C49;
     text-align: center;
 }
-#nav-list p{
+
+#nav-list p {
     color: #000;
     margin-top: 15px;
     text-align: center;
@@ -160,13 +161,19 @@ body {
   第四部分：账户管理界面
 *****************************************************************************************/
 
+hr {
+    border-color: #3F0C1F;
+    border-width: 1px 0 0 0;
+}
+
 #account_inner {
-    background: #f9f2f4;
+    background: #f5f5f5;
     padding: 30px;
     box-shadow: 0 0 10px #3F0C1F;
     border: 1px solid #3F0C1F;
     border-radius: 2px;
 }
+
 .big-box {
     border: 1px solid #eee;
     -webkit-box-shadow: 0 3px 3px rgba(0, 0, 0, .5);
@@ -214,16 +221,16 @@ body {
     padding-right: 8px;
 }
 
-/* 豆瓣 */
-.socialaccount_providers li a.socialaccount_provider.douban {
-    background: #a6e1ec; /* technically gradient down to #3A579A */
-    color: green;
+/* 淘宝 */
+.socialaccount_providers li a.socialaccount_provider.taobao {
+    background: #e07f2e;
+    color: #fff;
 }
 
-.socialaccount_providers li a.socialaccount_provider.douban:before {
+.socialaccount_providers li a.socialaccount_provider.taobao:before {
     /*font-family: FontAwesome;*/
     font-size: 1.9em;
-    content: "豆";
+    content: "淘";
     display: inline-block;
     padding-left: 8px;
     padding-right: 8px;
@@ -273,7 +280,6 @@ body {
     padding-left: 8px;
     padding-right: 8px;
 }
-
 
 /* Github */
 .socialaccount_providers li a.socialaccount_provider.github {
