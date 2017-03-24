@@ -18,12 +18,17 @@ class TaobaoProvider(OAuth2Provider):
     account_class = TaobaoAccount
 
     def extract_uid(self, data):
-        return data['uid']
+
+        # return data.get('taobao_user_id')
+        return data['response']['taobao_user_id']
 
 
     def extract_common_fields(self, data):
-        return dict(username=data.get('uid'),
-                    name=data.get('uname'))
-
+        uid = data['response']['taobao_user_id']
+        nick  = data['response']['taobao_user_nick']
+        uname = data['response']['taobao_user_nick']
+        #return dict(uid=data.get('taobao_user_id'), username=data.get('taobao_user_nick'), uname=data.get('taobao_user_nick'))
+        return dict(uid = data['response']['taobao_user_id'],
+                    username = data['response']['taobao_user_nick'], uname=data['response']['taobao_user_nick'])
 
 provider_classes = [TaobaoProvider]
