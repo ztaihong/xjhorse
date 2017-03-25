@@ -34,12 +34,15 @@
 .brand-name {
     padding: 15px;
 }
-.brand-name p{
+
+.brand-name p {
     color: #fff;
 }
-.brand-name p:hover{
+
+.brand-name p:hover {
     color: #000;
 }
+
 /** 导航栏菜单、按钮 **/
 #nav-list a {
     color: #fff;
@@ -55,15 +58,19 @@
 #nav-list a:hover {
     background: #979797;
 }
+
 #nav-list a:active {
     background: #61122f;
 }
-#actived {
+
+.actived {
     background: #FAFFFA;
 }
-#actived a {
+
+#nav-list>li.actived>a{
     color: #61122f;
 }
+
 .navbar-header button.navbar-toggle .navbar-header .icon-bar {
     border: 1px solid #61122f;
 }
@@ -222,7 +229,7 @@ hr {
 
 /* 1、百度 */
 .socialaccount_providers li a.socialaccount_provider.baidu {
-    background: rgb(192,0,0); /* 赤 */
+    background: rgb(192, 0, 0); /* 赤 */
     color: #fff;
 }
 
@@ -237,7 +244,7 @@ hr {
 
 /* 2、淘宝 */
 .socialaccount_providers li a.socialaccount_provider.taobao {
-    background: rgb(192,96,0); /* 橙 */
+    background: rgb(192, 96, 0); /* 橙 */
     color: #fff;
 }
 
@@ -252,7 +259,7 @@ hr {
 
 /* 3、QQ */
 .socialaccount_providers li a.socialaccount_provider.qq {
-    background: rgb(192,192,0); /* 黄 */
+    background: rgb(192, 192, 0); /* 黄 */
     color: #fff;
 }
 
@@ -267,7 +274,7 @@ hr {
 
 /* 4、微信 */
 .socialaccount_providers li a.socialaccount_provider.weixin {
-    background: rgb(0,192,0); /* 绿青蓝紫 */
+    background: rgb(0, 192, 0); /* 绿青蓝紫 */
     color: #fff;
 }
 
@@ -282,7 +289,7 @@ hr {
 
 /* 5、谷歌 */
 .socialaccount_providers li a.socialaccount_provider.google {
-    background: rgb(0,192,192); /* 青 */
+    background: rgb(0, 192, 192); /* 青 */
     color: #fff;
 }
 
@@ -297,7 +304,7 @@ hr {
 
 /* 6、脸谱 */
 .socialaccount_providers li a.socialaccount_provider.facebook {
-    background: rgb(0,0,192); /* 蓝 */
+    background: rgb(0, 0, 192); /* 蓝 */
     color: #fff;
 }
 
@@ -310,11 +317,9 @@ hr {
     padding-right: 8px;
 }
 
-
-
 /* 7、Github */
 .socialaccount_providers li a.socialaccount_provider.github {
-    background: rgb(96,0,192); /* 紫 */
+    background: rgb(96, 0, 192); /* 紫 */
     color: #fff;
 }
 

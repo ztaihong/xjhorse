@@ -1,4 +1,4 @@
-{% load staticfiles %}
+{% load static %}
 <!DOCTYPE html>
 
 <html lang="en" {% block htmlattr %}{% endblock %}>
@@ -15,6 +15,9 @@
 
     <script src="{% static 'javascript/html5shiv.js' %}"></script>
     <script src="{% static 'javascript/respond.min.js' %}"></script>
+    <script src="{% static 'javascript/jquery-2.1.4.min.js' %}"></script>
+    <script src="{% static 'javascript/bootstrap.min.js' %}"></script>
+    <script src="{% static 'javascript/main.js' %}"></script>
 
 </head>
 <body class='{% block pageclass %}{% endblock %}' {% block bodyattr %}{% endblock %}>
@@ -22,18 +25,18 @@
 {% block nav %}
     {% include "homePage/xjhorse_nav.html" %}
 {% endblock %}
+<div id="main-content" class="container">
+    {% block content %}
 
-{% block content %}
-    <div class="container">
         <div class="row">
             <div id="account_inner" class="col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2 big-box">
                 {% block inner-content %}
                 {% endblock %}
             </div>
         </div>
-    </div>
-{% endblock %}
 
+    {% endblock %}
+</div>
 {% block footer %}
     {% include "homePage/xjhorse_footer.html" %}
 {% endblock %}
