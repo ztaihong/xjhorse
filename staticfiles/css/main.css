@@ -1,0 +1,352 @@
+/*****************************************************************************************
+  作者：张太红
+  日期：2017年03月17日
+*****************************************************************************************/
+
+/*****************************************************************************************
+  第一部分：导航栏
+*****************************************************************************************/
+
+/** 导航栏背景及边框 **/
+.navbar {
+    background-color: silver;
+    border-radius: 0;
+    border: 0;
+}
+
+/*****************************************************************************************
+  功能：响应式navbar-brand image CSS
+  调整navbar-brand padding：1、让logo图片的有更多的显示区域；2、解决firefox bug
+  添加100% height和width auto：作用类似bootstrap img-responsive class，使得logo图片大小自适应
+  增加brand-name padding：让网站名称居中显示
+*****************************************************************************************/
+.navbar-brand {
+    padding: 4px;
+}
+
+.navbar-brand > img {
+    height: 100%;
+    padding-top: 4px;
+    color: #000000;
+    width: auto;
+}
+
+.brand-name {
+    padding: 15px;
+}
+
+/** 导航栏菜单、按钮 **/
+#nav-list a {
+    color: #951C49;
+    text-align: center;
+}
+
+#nav-list p {
+    color: #000;
+    margin-top: 15px;
+    text-align: center;
+}
+
+#nav-list a:hover {
+    background: #E7E7E7;
+}
+
+.navbar-header button.navbar-toggle .navbar-header .icon-bar {
+    border: 1px solid #61122f;
+}
+
+/** 折叠的导航菜单展开后与导航栏之间的分隔线颜色 **/
+.navbar-default .navbar-collapse {
+    border-top-color: #61122f;
+}
+
+/*****************************************************************************************
+  第二部分：页面主体背景颜色
+*****************************************************************************************/
+body {
+    background-color: #FAFFFA;
+}
+
+/*****************************************************************************************
+  第三部分：页面主体
+*****************************************************************************************/
+
+/* 主体容器 */
+.container .jumbotron {
+    padding: 0px;
+    box-shadow: 0 0 5px #3F0C1F;
+    border: 1px solid #3F0C1F;
+}
+
+#slide {
+    margin-top: -5px;
+    margin-bottom: 15px;
+}
+
+/* 三个缩略图导航器： 品种展示、马病预防、伯乐课堂 */
+#thumbnails {
+    height: 250px;
+    width: 100%;
+    margin-bottom: 15px;
+    position: relative;
+    border: 2px solid #3F0C1F;
+    overflow: hidden;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+
+    -webkit-box-shadow: rgba(0, 0, 0, 0.20) 0 5px 5px;
+    -moz-box-shadow: rgba(0, 0, 0, 0.20) 0 5px 5px;
+    box-shadow: rgba(0, 0, 0, 0.20) 0 5px 5px;
+}
+
+#thumbnails:hover {
+    box-shadow: 0 1px 2px 2px #666666;
+}
+
+#thumbnails span {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1.6em;
+    text-transform: uppercase;
+    background-color: #000;
+    color: #fff;
+    opacity: 0.7;
+}
+
+.breeds {
+    background: url("/static/images/horse_breeds.png");
+}
+
+.disease {
+    background-image: url("/static/images/horse_disease.png");
+}
+
+.mooc {
+    background-image: url("/static/images/yaoxinkui.png");
+}
+
+/*****************************************************************************************
+  第四部分：页脚
+*****************************************************************************************/
+.footer {
+    margin-top: 0px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #222;
+    border-top: 0;
+    color: #ffffff;
+}
+
+.footer div.row {
+    margin-bottom: 35px;
+}
+
+#project, #organization, #objective {
+    line-height: 2;
+}
+
+#project > span, #organization > span, #objective > span {
+    font-size: 1.3em;
+}
+
+#objective {
+    font-style: italic;
+}
+
+/*****************************************************************************************
+  第四部分：账户管理界面
+*****************************************************************************************/
+
+hr {
+    border-color: #3F0C1F;
+    border-width: 1px 0 0 0;
+}
+
+#account_inner {
+    background: #f5f5f5;
+    padding: 30px;
+    box-shadow: 0 0 10px #3F0C1F;
+    border: 1px solid #3F0C1F;
+    border-radius: 2px;
+}
+
+.big-box {
+    border: 1px solid #eee;
+    -webkit-box-shadow: 0 3px 3px rgba(0, 0, 0, .5);
+    box-shadow: 0 3px 3px rgba(0, 0, 0, .5);
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+
+    /*
+      -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+         -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+              box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    */
+}
+
+.socialaccount_providers li a.socialaccount_provider {
+    rem-border: 1px solid #ddd;
+    border-radius: 10px;
+    rem-box-shadow: 2px 2px 8px rgba(0, 0, 0, .7);
+    -padding: 10px;
+    margin-bottom: 6px;
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    rem-font-size: 1.2em;
+}
+
+.socialaccount_providers li a.socialaccount_provider:hover {
+    text-decoration: none;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, .7);
+}
+
+/* 1、百度 */
+.socialaccount_providers li a.socialaccount_provider.baidu {
+    background: rgb(192,0,0); /* 赤 */
+    color: #fff;
+}
+
+.socialaccount_providers li a.socialaccount_provider.baidu:before {
+    font-family: FontAwesome;
+    font-size: 1.9em;
+    content: "\f1b0";
+    display: inline-block;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+/* 2、淘宝 */
+.socialaccount_providers li a.socialaccount_provider.taobao {
+    background: rgb(192,96,0); /* 橙 */
+    color: #fff;
+}
+
+.socialaccount_providers li a.socialaccount_provider.taobao:before {
+    /*font-family: FontAwesome;*/
+    font-size: 1.9em;
+    content: "淘";
+    display: inline-block;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+/* 3、QQ */
+.socialaccount_providers li a.socialaccount_provider.qq {
+    background: rgb(192,192,0); /* 黄 */
+    color: #fff;
+}
+
+.socialaccount_providers li a.socialaccount_provider.qq:before {
+    font-family: FontAwesome;
+    font-size: 1.9em;
+    content: "\f1d6";
+    display: inline-block;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+/* 4、微信 */
+.socialaccount_providers li a.socialaccount_provider.weixin {
+    background: rgb(0,192,0); /* 绿青蓝紫 */
+    color: #fff;
+}
+
+.socialaccount_providers li a.socialaccount_provider.weixin:before {
+    font-family: FontAwesome;
+    font-size: 1.9em;
+    content: "\f1d7";
+    display: inline-block;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+/* 5、谷歌 */
+.socialaccount_providers li a.socialaccount_provider.google {
+    background: rgb(0,192,192); /* 青 */
+    color: #fff;
+}
+
+.socialaccount_providers li a.socialaccount_provider.google:before {
+    font-family: FontAwesome;
+    font-size: 1.9em;
+    content: "\f0d4";
+    display: inline-block;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+/* 6、脸谱 */
+.socialaccount_providers li a.socialaccount_provider.facebook {
+    background: rgb(0,0,192); /* 蓝 */
+    color: #fff;
+}
+
+.socialaccount_providers li a.socialaccount_provider.facebook:before {
+    font-family: FontAwesome;
+    font-size: 1.9em;
+    content: "\f082";
+    display: inline-block;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+
+
+/* 7、Github */
+.socialaccount_providers li a.socialaccount_provider.github {
+    background: rgb(96,0,192); /* 紫 */
+    color: #fff;
+}
+
+.socialaccount_providers li a.socialaccount_provider.github:before {
+    font-family: FontAwesome;
+    font-size: 1.9em;
+    content: "\f092";
+    display: inline-block;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+/* from http://konigi.com/tools/css-sticky-notes */
+.sticky {
+    -webkit-box-shadow: #DDD 0px 1px 2px;
+    position: relative;
+    background-color: #F4F39E;
+    border-color: #DEE184;
+    text-align: center;
+    margin: 2.5em 0px;
+    padding: 1.5em 1em;
+    -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
+    font-family: Chalkboard, 'Comic Sans';
+}
+
+.sticky.taped2:after {
+    display: block;
+    content: "";
+    position: absolute;
+    width: 110px;
+    height: 30px;
+    top: -21px;
+    left: 30%;
+    border: 1px solid #fff;
+    background: rgba(254, 254, 254, .6);
+    -webkit-box-shadow: 0px 0 3px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0px 0 3px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0 3px rgba(0, 0, 0, 0.1);
+}
+
+/* borrowed from http://designshack.net/articles/css/4-fun-css-image-effects-you-can-copy-and-paste/ */
+.picture-frame img {
+    border: 10px solid #fff;
+    -webkit-box-shadow: 3px 0px 0px #777;
+    -moz-box-shadow: 3px 0px 0px #777;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.35);
+}

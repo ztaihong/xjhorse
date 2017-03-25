@@ -2,6 +2,7 @@ from allauth.account.models import EmailAddress
 from allauth.socialaccount.app_settings import QUERY_EMAIL
 from allauth.socialaccount.providers.base import AuthAction, ProviderAccount
 from allauth.socialaccount.providers.oauth2.provider import OAuth2Provider
+from django.utils.translation import ugettext_lazy as _
 
 
 class Scope(object):
@@ -23,7 +24,7 @@ class GoogleAccount(ProviderAccount):
 
 class GoogleProvider(OAuth2Provider):
     id = 'google'
-    name = 'Google'
+    name = _('Google')
     account_class = GoogleAccount
 
     def get_default_scope(self):

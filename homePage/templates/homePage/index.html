@@ -1,10 +1,14 @@
+{% extends 'homePage/xjhorse_base.html' %}
+{% load i18n %}
+{% load bootstrap3 %}
+
 <!--****************************************************************************************
   作者：张太红
   日期：2017年03月17日
 *****************************************************************************************-->
 
 
-{% extends 'xjhorse_base.html' %}
+
 
 {% block title %} 欢迎您！{% endblock %}
 
@@ -30,8 +34,8 @@
             <div class="item active">
                 <img src="/static/images/horse1.jpg">
                 <div class="carousel-caption">
-                    <h3>推动互联网与传统马产业融合</h3>
-                    <p>新疆马业科技信息服务平台</p>
+                    <h3>{% trans "Promoting The integration of Internet with Traditional Horse Industries" %}</h3>
+                    <p>{% trans "Horse Industry S&T Innovative Platform" %}</p>
                 </div>
             </div>
 
@@ -39,8 +43,8 @@
             <div class="item">
                 <img src="/static/images/horse2.jpg">
                 <div class="carousel-caption">
-                    <h3>探索“互联网＋马产业”经济发展新形态</h3>
-                    <p>马场生产过程数据采集平台</p>
+                    <h3>{% trans 'Exploring the New Form of "Internet + Horse Industry" Economic Development' %}</h3>
+                    <p>{% trans "Horserange Information Management System" %}</p>
                 </div>
             </div>
 
@@ -48,8 +52,8 @@
             <div class="item">
                 <img src="/static/images/horse3.jpg">
                 <div class="carousel-caption">
-                    <h3>助推我区马产业转型升级</h3>
-                    <p>赛马电子商务竞拍交易平台</p>
+                    <h3>{% trans "Boost Region’s Horse Industry Transformation and Upgrading" %}</h3>
+                    <p>{% trans "Racing Horse E-commercial Auction Platform" %}</p>
                 </div>
             </div>
 
@@ -57,8 +61,8 @@
             <div class="item">
                 <img src="/static/images/horse4.jpg">
                 <div class="carousel-caption">
-                    <h3>马产业升级技术创新工程</h3>
-                    <p>新疆马品系认证登记平台</p>
+                    <h3>{% trans "Horse Industry Upgrading Technological Innovation Program" %}</h3>
+                    <p>{% trans "Xinjiang Horse Strain Registration Platform" %}</p>
                 </div>
             </div>
 
@@ -66,8 +70,8 @@
             <div class="item">
                 <img src="/static/images/horse5.jpg">
                 <div class="carousel-caption">
-                    <h3>马产业科技创新平台</h3>
-                    <p>赛马赛事组织管理信息平台</p>
+                    <h3>{% trans "Horse Industry Upgrading Technological Innovation Program" %}</h3>
+                    <p>{% trans "Horse Racing Events and Information Management System" %}</p>
                 </div>
             </div>
 
@@ -88,17 +92,17 @@
     <div class="row">
         <div class="col-md-4 col-sm-6 col-xs-12">
             <a href="">
-                <div id="thumbnails" class="breeds"><span>品种展示</span></div>
+                <div id="thumbnails" class="breeds"><span>{% trans "Horse Breeds" %}</span></div>
             </a>
         </div>
         <div class="col-md-4 col-sm-6 col-xs-12">
             <a href="#">
-                <div id="thumbnails" class="disease"><span>马病预防</span></div>
+                <div id="thumbnails" class="disease"><span>{% trans "Disease Prevention" %}</span></div>
             </a>
         </div>
         <div class="col-md-4 col-sm-12 col-xs-12">
             <a href="http://mooc.xjhorse.net">
-                <div id="thumbnails" class="mooc"><span>伯乐学堂</span></div>
+                <div id="thumbnails" class="mooc"><span>{% trans "Bole Classroom" %}</span></div>
             </a>
         </div>
     </div>

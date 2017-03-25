@@ -9,7 +9,7 @@
 
 /** 导航栏背景及边框 **/
 .navbar {
-    background-color: silver;
+    background-color: #00979c;;
     border-radius: 0;
     border: 0;
 }
@@ -34,10 +34,15 @@
 .brand-name {
     padding: 15px;
 }
-
+.brand-name p{
+    color: #fff;
+}
+.brand-name p:hover{
+    color: #000;
+}
 /** 导航栏菜单、按钮 **/
 #nav-list a {
-    color: #951C49;
+    color: #fff;
     text-align: center;
 }
 
@@ -48,9 +53,17 @@
 }
 
 #nav-list a:hover {
-    background: #E7E7E7;
+    background: #979797;
 }
-
+#nav-list a:active {
+    background: #61122f;
+}
+#actived {
+    background: #FAFFFA;
+}
+#actived a {
+    color: #61122f;
+}
 .navbar-header button.navbar-toggle .navbar-header .icon-bar {
     border: 1px solid #61122f;
 }
@@ -139,6 +152,7 @@ body {
     background-color: #222;
     border-top: 0;
     color: #ffffff;
+    font-size: 0.9em;
 }
 
 .footer div.row {
@@ -179,8 +193,8 @@ hr {
     -webkit-box-shadow: 0 3px 3px rgba(0, 0, 0, .5);
     box-shadow: 0 3px 3px rgba(0, 0, 0, .5);
     padding: 20px;
-    margin-top: 60px;
-    margin-bottom: 60px;
+    margin-top: 10px;
+    margin-bottom: 30px;
 
     /*
       -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
@@ -206,9 +220,9 @@ hr {
     box-shadow: 1px 1px 2px rgba(0, 0, 0, .7);
 }
 
-/* 百度 */
+/* 1、百度 */
 .socialaccount_providers li a.socialaccount_provider.baidu {
-    background: #269abc; /* technically gradient down to #3A579A */
+    background: rgb(192,0,0); /* 赤 */
     color: #fff;
 }
 
@@ -221,9 +235,9 @@ hr {
     padding-right: 8px;
 }
 
-/* 淘宝 */
+/* 2、淘宝 */
 .socialaccount_providers li a.socialaccount_provider.taobao {
-    background: #e07f2e;
+    background: rgb(192,96,0); /* 橙 */
     color: #fff;
 }
 
@@ -236,39 +250,39 @@ hr {
     padding-right: 8px;
 }
 
-/* 微信 */
+/* 3、QQ */
+.socialaccount_providers li a.socialaccount_provider.qq {
+    background: rgb(192,192,0); /* 黄 */
+    color: #fff;
+}
+
+.socialaccount_providers li a.socialaccount_provider.qq:before {
+    font-family: FontAwesome;
+    font-size: 1.9em;
+    content: "\f1d6";
+    display: inline-block;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+/* 4、微信 */
 .socialaccount_providers li a.socialaccount_provider.weixin {
-    background: #3e8f3e; /* technically gradient down to #3A579A */
+    background: rgb(0,192,0); /* 绿青蓝紫 */
     color: #fff;
 }
 
 .socialaccount_providers li a.socialaccount_provider.weixin:before {
     font-family: FontAwesome;
     font-size: 1.9em;
-    content: "\f086";
+    content: "\f1d7";
     display: inline-block;
     padding-left: 8px;
     padding-right: 8px;
 }
 
-/* 脸谱 */
-.socialaccount_providers li a.socialaccount_provider.facebook {
-    background: #4B67A3; /* technically gradient down to #3A579A */
-    color: #fff;
-}
-
-.socialaccount_providers li a.socialaccount_provider.facebook:before {
-    font-family: FontAwesome;
-    font-size: 1.9em;
-    content: "\f082";
-    display: inline-block;
-    padding-left: 8px;
-    padding-right: 8px;
-}
-
-/* 谷歌 */
+/* 5、谷歌 */
 .socialaccount_providers li a.socialaccount_provider.google {
-    background: #DE4931;
+    background: rgb(0,192,192); /* 青 */
     color: #fff;
 }
 
@@ -281,9 +295,26 @@ hr {
     padding-right: 8px;
 }
 
-/* Github */
+/* 6、脸谱 */
+.socialaccount_providers li a.socialaccount_provider.facebook {
+    background: rgb(0,0,192); /* 蓝 */
+    color: #fff;
+}
+
+.socialaccount_providers li a.socialaccount_provider.facebook:before {
+    font-family: FontAwesome;
+    font-size: 1.9em;
+    content: "\f082";
+    display: inline-block;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+
+
+/* 7、Github */
 .socialaccount_providers li a.socialaccount_provider.github {
-    background: #555555;
+    background: rgb(96,0,192); /* 紫 */
     color: #fff;
 }
 

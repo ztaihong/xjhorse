@@ -1,6 +1,6 @@
 from allauth.socialaccount.providers.base import ProviderAccount
 from allauth.socialaccount.providers.oauth2.provider import OAuth2Provider
-
+from django.utils.translation import ugettext_lazy as _
 
 class TaobaoAccount(ProviderAccount):
 
@@ -14,7 +14,7 @@ class TaobaoAccount(ProviderAccount):
 
 class TaobaoProvider(OAuth2Provider):
     id = 'taobao'
-    name = 'Taobao（淘宝）'
+    name = _('Taobao')
     account_class = TaobaoAccount
 
     def extract_uid(self, data):

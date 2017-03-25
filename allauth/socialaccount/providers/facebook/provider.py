@@ -1,5 +1,5 @@
 import json
-
+from django.utils.translation import ugettext_lazy as _
 from django.conf import settings
 from django.core.exceptions import ImproperlyConfigured
 from django.middleware.csrf import get_token
@@ -47,7 +47,7 @@ class FacebookAccount(ProviderAccount):
 
 class FacebookProvider(OAuth2Provider):
     id = 'facebook'
-    name = 'Facebook'
+    name = _('Facebook')
     account_class = FacebookAccount
 
     def __init__(self, request):

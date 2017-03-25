@@ -1,7 +1,7 @@
 from allauth.socialaccount import app_settings
 from allauth.socialaccount.providers.base import ProviderAccount
 from allauth.socialaccount.providers.oauth2.provider import OAuth2Provider
-
+from django.utils.translation import ugettext_lazy as _
 
 class GitHubAccount(ProviderAccount):
     def get_profile_url(self):
@@ -25,7 +25,7 @@ class GitHubAccount(ProviderAccount):
 
 class GitHubProvider(OAuth2Provider):
     id = 'github'
-    name = 'GitHub'
+    name = _('GitHub')
     account_class = GitHubAccount
 
     def get_default_scope(self):

@@ -1,6 +1,6 @@
 from allauth.socialaccount.providers.base import ProviderAccount
 from allauth.socialaccount.providers.oauth2.provider import OAuth2Provider
-
+from django.utils.translation import ugettext_lazy as _
 
 class BaiduAccount(ProviderAccount):
     def get_profile_url(self):
@@ -16,7 +16,7 @@ class BaiduAccount(ProviderAccount):
 
 class BaiduProvider(OAuth2Provider):
     id = 'baidu'
-    name = 'Baidu（百度）'
+    name = _('Baidu')
     account_class = BaiduAccount
 
     def extract_uid(self, data):

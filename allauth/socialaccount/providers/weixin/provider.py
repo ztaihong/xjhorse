@@ -1,6 +1,6 @@
 from allauth.socialaccount.providers.base import ProviderAccount
 from allauth.socialaccount.providers.oauth2.provider import OAuth2Provider
-
+from django.utils.translation import ugettext_lazy as _
 
 class WeixinAccount(ProviderAccount):
 
@@ -15,7 +15,7 @@ class WeixinAccount(ProviderAccount):
 
 class WeixinProvider(OAuth2Provider):
     id = 'weixin'
-    name = 'Weixin'
+    name = _('Weixin')
     account_class = WeixinAccount
 
     def extract_uid(self, data):
