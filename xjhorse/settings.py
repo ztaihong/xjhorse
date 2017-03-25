@@ -52,14 +52,14 @@ INSTALLED_APPS = [
     'allauth',
     'allauth.account',
     'allauth.socialaccount',
-    'allauth.socialaccount.providers.taobao',    # 淘宝
-    'allauth.socialaccount.providers.baidu',     # 百度
 
-    #'allauth.socialaccount.providers.douban',  # 豆瓣
-    'allauth.socialaccount.providers.weixin',    # 微信
-    'allauth.socialaccount.providers.facebook',  # 脸谱
-    'allauth.socialaccount.providers.google',    # 谷歌
-    'allauth.socialaccount.providers.github',    # github
+    'allauth.socialaccount.providers.baidu',     # 1、百度
+    'allauth.socialaccount.providers.taobao',    # 2、淘宝
+    'allauth.socialaccount.providers.qq',        # 3、QQ
+    'allauth.socialaccount.providers.weixin',    # 4、微信
+    'allauth.socialaccount.providers.google',    # 5、谷歌
+    'allauth.socialaccount.providers.facebook',  # 6、脸谱
+    'allauth.socialaccount.providers.github',    # 7、github
 
 
 
@@ -84,12 +84,12 @@ SITE_ID = 1
 # 登录成功后重定向URL
 LOGIN_REDIRECT_URL = '/'
 
-ACCOUNT_AUTHENTICATION_METHOD = 'email'
-ACCOUNT_USERNAME_REQUIRED = False
+ACCOUNT_AUTHENTICATION_METHOD = 'username_email'
+ACCOUNT_USERNAME_REQUIRED = True
 ACCOUNT_EMAIL_REQUIRED = True
 ACCOUNT_USERNAME_MIN_LENGTH = 3
 ACCOUNT_EMAIL_VERIFICATION = 'none'  # testing...
-ACCOUNT_USER_MODEL_USERNAME_FIELD = None
+ACCOUNT_USER_MODEL_USERNAME_FIELD = "username"
 SOCIALACCOUNT_AUTO_SIGNUP = False  # require social accounts to use the signup form ... I think
 
 SOCIALACCOUNT_PROVIDERS = {
@@ -106,7 +106,15 @@ SOCIALACCOUNT_PROVIDERS = {
 
 CRISPY_TEMPLATE_PACK = "bootstrap3"
 
-EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+# EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_HOST = 'smtp.qq.com'                       # SMTP地址
+EMAIL_PORT = 25                                  # SMTP端口
+EMAIL_HOST_USER = 'ztaihong@qq.com'              # QQ的邮箱
+EMAIL_HOST_PASSWORD = 'fdfpeslrpywygjfh'         # QQ SMTP验证码
+EMAIL_SUBJECT_PREFIX = u'新疆马业'                # 为邮件标题前缀
+EMAIL_USE_TLS = True                             # 与SMTP服务器通信时，是否启动TLS链接(安全链接)
+DEFAULT_FROM_EMAIL = EMAIL_HOST_USER             # 发件人邮箱
 
 TEMPLATES = [
     {
