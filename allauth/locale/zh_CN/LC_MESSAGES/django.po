@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: django-allauth\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 20:55+0800\n"
+"POT-Creation-Date: 2017-03-27 02:13+0800\n"
 "PO-Revision-Date: 2014-08-12 00:36+0200\n"
 "Last-Translator: jresins <jresins@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -92,24 +92,18 @@ msgid "Login"
 msgstr "账号"
 
 #: allauth/account/forms.py:258
-#, fuzzy
-#| msgid "E-mail (optional)"
 msgid "E-mail (again)"
-msgstr "E-mail （选填项）"
+msgstr "E-mail （在输入一次）"
 
 #: allauth/account/forms.py:262
-#, fuzzy
-#| msgid "email confirmation"
 msgid "E-mail address confirmation"
-msgstr "e-mail确认"
+msgstr "e-mail地址确认"
 
 #: allauth/account/forms.py:272
 msgid "E-mail (optional)"
 msgstr "E-mail （选填项）"
 
 #: allauth/account/forms.py:314
-#, fuzzy
-#| msgid "You must type the same password each time."
 msgid "You must type the same email each time."
 msgstr "每次输入的密码必须相同"
 
@@ -154,7 +148,6 @@ msgid "user"
 msgstr "用户"
 
 #: allauth/account/models.py:27 allauth/account/models.py:86
-#, fuzzy
 msgid "e-mail address"
 msgstr "e-mail地址"
 
@@ -352,7 +345,7 @@ msgstr "无权访问私有资源 \"%s\"。"
 msgid "QQ"
 msgstr "QQ"
 
-#: allauth/socialaccount/providers/taobao/provider.py:17
+#: allauth/socialaccount/providers/taobao/provider.py:16
 msgid "Taobao"
 msgstr "淘宝"
 
@@ -427,11 +420,7 @@ msgid "Do you really want to remove the selected e-mail address?"
 msgstr "您真的想移除选定的e-mail地址吗？"
 
 #: allauth/templates/account/email/email_confirmation_message.txt:1
-#, fuzzy, python-format
-#| msgid ""
-#| "User %(user_display)s at %(site_name)s has given this as an email address.\n"
-#| "\n"
-#| "To confirm this is correct, go to %(activate_url)s\n"
+#, python-format
 msgid ""
 "Hello from %(site_name)s!\n"
 "\n"
@@ -451,16 +440,11 @@ msgid ""
 msgstr ""
 
 #: allauth/templates/account/email/email_confirmation_subject.txt:3
-#, fuzzy
-#| msgid "Confirm E-mail Address"
 msgid "Please Confirm Your E-mail Address"
-msgstr "确认E-mail地址"
+msgstr "请确认您的E-mail地址"
 
 #: allauth/templates/account/email/password_reset_key_message.txt:1
-#, fuzzy, python-format
-#| msgid ""
-#| "You're receiving this e-mail because you or someone else has requested a password for your user account at %(site_domain)s.\n"
-#| "It can be safely ignored if you did not request a password reset. Click the link below to reset your password."
+#, python-format
 msgid ""
 "Hello from %(site_name)s!\n"
 "\n"
@@ -492,8 +476,7 @@ msgid "Confirm E-mail Address"
 msgstr "确认E-mail地址"
 
 #: allauth/templates/account/email_confirm.html:18
-#, fuzzy, python-format
-#| msgid "Please confirm that <a href=\"mailto:%(email)s\">%(email)s</a> is an e-mail address for user %(user_display)s."
+#, python-format
 msgid ""
 "Please confirm that\n"
 "            <a href=\"mailto:%(email)s\">%(email)s</a> is an e-mail address for user %(user_display)s\n"
@@ -505,8 +488,7 @@ msgid "Confirm"
 msgstr "确认"
 
 #: allauth/templates/account/email_confirm.html:31
-#, fuzzy, python-format
-#| msgid "This e-mail confirmation link expired or is invalid. Please <a href=\"%(email_url)s\">issue a new e-mail confirmation request</a>."
+#, python-format
 msgid ""
 "This e-mail confirmation link expired or is invalid. Please\n"
 "            <a href=\"%(email_url)s\">issue a new e-mail confirmation request</a>."
@@ -523,9 +505,9 @@ msgid "You can sign in to your account using any of the following third party ac
 msgstr "您可以用您的以下任何第三方账号登录"
 
 #: allauth/templates/account/login.html:27
+#, python-format
 msgid "If you have not created an account yet, then please<a href=\"%(signup_url)s\">sign up</a>first."
-msgstr ""
-"如果农在本网站还没有账号，请先<a href=\"%(signup_url)s\">注册</a> 。"
+msgstr "如果农在本网站还没有账号，请先<a href=\"%(signup_url)s\">注册</a> 。"
 
 #: allauth/templates/account/login.html:35
 msgid "Forgot Password?"
@@ -650,8 +632,6 @@ msgstr "注册"
 
 #: allauth/templates/account/signup.html:9
 #: allauth/templates/account/signup.html:20
-#: allauth/templates/socialaccount/signup.html:10
-#: allauth/templates/socialaccount/signup.html:23
 msgid "Sign Up"
 msgstr "注册"
 
@@ -690,11 +670,6 @@ msgid "We have sent an e-mail to you for verification. Follow the link provided 
 msgstr "我们已向您发了一封验证e-mail。点击e-mail中的链接完成注册流程。如果您在几分钟后仍未收到邮件，请与我们联系。"
 
 #: allauth/templates/account/verified_email_required.html:14
-#, fuzzy
-#| msgid ""
-#| "This part of the site requires us to verify that\n"
-#| "you are who you claim to be. For this purpose, we require that you\n"
-#| "verify ownership of your e-mail address. "
 msgid ""
 "This part of the site requires us to verify that\n"
 "        you are who you claim to be. For this purpose, we require that you\n"
@@ -704,11 +679,6 @@ msgstr ""
 "为此，我们需要您确认您是此账号e-mail地址的所有者。"
 
 #: allauth/templates/account/verified_email_required.html:18
-#, fuzzy
-#| msgid ""
-#| "We have sent an e-mail to you for\n"
-#| "verification. Please click on the link inside this e-mail. Please\n"
-#| "contact us if you do not receive it within a few minutes."
 msgid ""
 "We have sent an e-mail to you for\n"
 "        verification. Please click on the link inside this e-mail. Please\n"
@@ -718,8 +688,7 @@ msgstr ""
 "请点击e-mail中的链接。若您在几分钟后仍未收到邮件，请联系我们。"
 
 #: allauth/templates/account/verified_email_required.html:22
-#, fuzzy, python-format
-#| msgid "<strong>Note:</strong> you can still <a href=\"%(email_url)s\">change your e-mail address</a>."
+#, python-format
 msgid ""
 "<strong>Note:</strong> you can still <a href=\"%(email_url)s\">change your e-mail address</a>\n"
 "        ."
@@ -744,8 +713,6 @@ msgid "Account Connections"
 msgstr "账号链接"
 
 #: allauth/templates/socialaccount/connections.html:13
-#, fuzzy
-#| msgid "You can sign in to your account using any of the following third party accounts:"
 msgid ""
 "You can sign in to your account using any of the following third party\n"
 "            accounts:"
@@ -765,15 +732,13 @@ msgid "Login Cancelled"
 msgstr "登录已取消"
 
 #: allauth/templates/socialaccount/login_cancelled.html:15
-#, fuzzy, python-format
-#| msgid "You decided to cancel logging in to our site using one of your existing accounts. If this was a mistake, please proceed to <a href=\"%(login_url)s\">sign in</a>."
+#, python-format
 msgid ""
 "You decided to cancel logging in to our site using one of your existing accounts. If this was a\n"
 "        mistake, please proceed to <a href=\"%(login_url)s\">sign in</a>."
-msgstr "您决定取消使用您的已有账号登录我们的网站。如果这是一个失误，请继续<a href=\"%(login_url)s\">登录</a>."
+msgstr "您决定取消使用您的已有账号登录我们的网站。如果这是一个误操作，请继续<a href=\"%(login_url)s\">登录</a>."
 
 #: allauth/templates/socialaccount/messages/account_connected.txt:2
-#, fuzzy
 msgid "The social account has been connected."
 msgstr "社交账号已连接"
 
@@ -782,27 +747,18 @@ msgid "The social account is already connected to a different account."
 msgstr "社交账号已连接到另一个账号。"
 
 #: allauth/templates/socialaccount/messages/account_disconnected.txt:2
-#, fuzzy
 msgid "The social account has been disconnected."
 msgstr "社交账号已断开连接"
 
+#: allauth/templates/socialaccount/signup.html:10
+#: allauth/templates/socialaccount/signup.html:23
+msgid "Map Sign Up"
+msgstr "映射注册"
+
 #: allauth/templates/socialaccount/signup.html:13
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "You are about to use your\n"
 "        %(provider_name)s account to login to\n"
 "        %(site_name)s. As a final step, please complete the following form:"
-msgstr ""
-"您将使用您的%(provider_name)s账号登录\n"
-"%(site_name)s。作为最后一步，请完成以下表单："
-
-
-#, fuzzy
-#~ msgid ""
-#~ "Please sign in with one\n"
-#~ "of your existing third party accounts. Or, <a href=\"%(signup_url)s\">sign up</a>\n"
-#~ "for a %(site_name)s account and sign in below:"
-#~ msgstr ""
-#~ "请用您的第三方账号登录。\n"
-#~ "或者<a href=\"%(signup_url)s\">注册</a> \n"
-#~ "一个 %(site_name)s账号并登录："
+msgstr "%(site_name)s网站需要将您的%(provider_name)s账号映射为一个本站账户，请填写以下表单来完成本站映射注册："
