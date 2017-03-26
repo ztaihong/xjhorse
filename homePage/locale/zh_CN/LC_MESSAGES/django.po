@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-25 20:55+0800\n"
+"POT-Creation-Date: 2017-03-27 02:13+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,56 +17,56 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: homePage/templates/homePage/index.html:37
+#: homePage/templates/homePage/index.html:34
 #: homePage/templates/homePage/xjhorse_footer.html:28
 msgid "Promoting The integration of Internet with Traditional Horse Industries"
 msgstr "推动互联网与传统马产业融合"
 
-#: homePage/templates/homePage/index.html:38
+#: homePage/templates/homePage/index.html:35
 msgid "Horse Industry S&T Innovative Platform"
 msgstr "马产业科技创新平台"
 
-#: homePage/templates/homePage/index.html:46
+#: homePage/templates/homePage/index.html:43
 #: homePage/templates/homePage/xjhorse_footer.html:29
 msgid "Exploring the New Form of \"Internet + Horse Industry\" Economic Development"
 msgstr "探索“互联网＋马产业”经济发展新形态"
 
-#: homePage/templates/homePage/index.html:47
+#: homePage/templates/homePage/index.html:44
 msgid "Horserange Information Management System"
 msgstr "马场生产过程数据采集平台"
 
-#: homePage/templates/homePage/index.html:55
+#: homePage/templates/homePage/index.html:52
 #: homePage/templates/homePage/xjhorse_footer.html:30
 msgid "Boost Region’s Horse Industry Transformation and Upgrading"
 msgstr "助推我区马产业转型升级"
 
-#: homePage/templates/homePage/index.html:56
+#: homePage/templates/homePage/index.html:53
 msgid "Racing Horse E-commercial Auction Platform"
 msgstr "赛马电子商务竞拍交易平台"
 
-#: homePage/templates/homePage/index.html:64
-#: homePage/templates/homePage/index.html:73
+#: homePage/templates/homePage/index.html:61
+#: homePage/templates/homePage/index.html:70
 #: homePage/templates/homePage/xjhorse_footer.html:13
 msgid "Horse Industry Upgrading Technological Innovation Program"
 msgstr "马产业升级技术创新工程"
 
-#: homePage/templates/homePage/index.html:65
+#: homePage/templates/homePage/index.html:62
 msgid "Xinjiang Horse Strain Registration Platform"
 msgstr "新疆马品系认证登记平台"
 
-#: homePage/templates/homePage/index.html:74
+#: homePage/templates/homePage/index.html:71
 msgid "Horse Racing Events and Information Management System"
 msgstr "赛马赛事组织管理信息平台"
 
-#: homePage/templates/homePage/index.html:95
+#: homePage/templates/homePage/index.html:92
 msgid "Horse Breeds"
 msgstr "品种展示"
 
-#: homePage/templates/homePage/index.html:100
+#: homePage/templates/homePage/index.html:97
 msgid "Disease Prevention"
 msgstr "马病预防"
 
-#: homePage/templates/homePage/index.html:105
+#: homePage/templates/homePage/index.html:102
 msgid "Bole Classroom"
 msgstr "伯乐学堂"
 
@@ -143,10 +143,10 @@ msgstr "精彩赛事"
 msgid "Sign Up"
 msgstr "注册"
 
-#: homePage/templates/homePage/xjhorse_nav.html:43
+#: homePage/templates/homePage/xjhorse_nav.html:44
 msgid "Sign In"
 msgstr "登录"
 
-#: homePage/templates/homePage/xjhorse_nav.html:46
+#: homePage/templates/homePage/xjhorse_nav.html:47
 msgid "Logout"
 msgstr "注销"
