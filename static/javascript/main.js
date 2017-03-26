@@ -17,6 +17,15 @@ $(function () {
         'top': '0'
     }, {duration: 2000});
 
+    $(".footer section").animate({
+        'top': '100'
+    }, {duration: 2000});
+
+    $(".footer section").animate({
+        'top': '0'
+    }, {duration: 2000});
+
+
     $(".nav li").on("click", function () {
         $(".nav li").removeClass("actived");
         $(this).addClass("actived");
