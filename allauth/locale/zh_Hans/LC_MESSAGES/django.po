@@ -780,3 +780,20 @@ msgstr "确保该字段至少包含 %(limit_value)d 个字符(您只输入了 %(
 
 msgid "This password is entirely numeric."
 msgstr "密码全是数字，这是不允许的"
+
+msgid ""
+"Ensure this value has at least %(limit_value)d character (it has "
+"%(show_value)d)."
+msgid_plural ""
+"Ensure this value has at least %(limit_value)d characters (it has "
+"%(show_value)d)."
+msgstr[0] ""
+"确保该字段至少包含 %(limit_value)d 个字符(您只输入了 %(show_value)d 个字符)"
+
+msgid ""
+"This password is too short. It must contain at least %(min_length)d "
+"character."
+msgid_plural ""
+"This password is too short. It must contain at least %(min_length)d "
+"characters."
+msgstr[0] "密码长度太短，密码必须包含至少 %(min_length)d 个字符"
