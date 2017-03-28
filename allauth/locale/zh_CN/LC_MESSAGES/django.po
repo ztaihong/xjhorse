@@ -762,3 +762,21 @@ msgid ""
 "        %(provider_name)s account to login to\n"
 "        %(site_name)s. As a final step, please complete the following form:"
 msgstr "%(site_name)s网站需要将您的%(provider_name)s账号映射为一个本站账户，请填写以下表单来完成本站映射注册："
+
+
+
+# 以下为表单输入验证不通过是的提示信息：
+
+msgid "This field is required."
+msgstr "这是必填字段，不允许留空"
+
+msgid "Enter a valid email address."
+msgstr "请输入正确的邮箱"
+
+msgid ""
+"Ensure this value has at least %(limit_value)d characters (it has "
+"%(show_value)d)."
+msgstr "确保该字段至少包含 %(limit_value)d 个字符(您只输入了 %(show_value)d 个字符)"
+
+msgid "This password is entirely numeric."
+msgstr "密码全是数字，这是不允许的"
