@@ -1,0 +1,152 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-27 02:13+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: homePage/templates/homePage/index.html:34
+#: homePage/templates/homePage/xjhorse_footer.html:28
+msgid "Promoting The integration of Internet with Traditional Horse Industries"
+msgstr "推动互联网与传统马产业融合"
+
+#: homePage/templates/homePage/index.html:35
+msgid "Horse Industry S&T Innovative Platform"
+msgstr "马产业科技创新平台"
+
+#: homePage/templates/homePage/index.html:43
+#: homePage/templates/homePage/xjhorse_footer.html:29
+msgid "Exploring the New Form of \"Internet + Horse Industry\" Economic Development"
+msgstr "探索“互联网＋马产业”经济发展新形态"
+
+#: homePage/templates/homePage/index.html:44
+msgid "Horserange Information Management System"
+msgstr "马场生产过程数据采集平台"
+
+#: homePage/templates/homePage/index.html:52
+#: homePage/templates/homePage/xjhorse_footer.html:30
+msgid "Boost Region’s Horse Industry Transformation and Upgrading"
+msgstr "助推我区马产业转型升级"
+
+#: homePage/templates/homePage/index.html:53
+msgid "Racing Horse E-commercial Auction Platform"
+msgstr "赛马电子商务竞拍交易平台"
+
+#: homePage/templates/homePage/index.html:61
+#: homePage/templates/homePage/index.html:70
+#: homePage/templates/homePage/xjhorse_footer.html:13
+msgid "Horse Industry Upgrading Technological Innovation Program"
+msgstr "马产业升级技术创新工程"
+
+#: homePage/templates/homePage/index.html:62
+msgid "Xinjiang Horse Strain Registration Platform"
+msgstr "新疆马品系认证登记平台"
+
+#: homePage/templates/homePage/index.html:71
+msgid "Horse Racing Events and Information Management System"
+msgstr "赛马赛事组织管理信息平台"
+
+#: homePage/templates/homePage/index.html:92
+msgid "Horse Breeds"
+msgstr "品种展示"
+
+#: homePage/templates/homePage/index.html:97
+msgid "Disease Prevention"
+msgstr "马病预防"
+
+#: homePage/templates/homePage/index.html:102
+msgid "Bole Classroom"
+msgstr "伯乐学堂"
+
+#: homePage/templates/homePage/xjhorse_base.html:15
+#: homePage/templates/homePage/xjhorse_nav.html:16
+msgid "Xinjiang Horse"
+msgstr "新疆马业"
+
+#: homePage/templates/homePage/xjhorse_footer.html:11
+msgid "Fund Program"
+msgstr "基金项目"
+
+#: homePage/templates/homePage/xjhorse_footer.html:12
+msgid "Xinjiang Uygur Autonomous Region Key S&T Projects"
+msgstr "新疆维吾尔自治区重大科技专项"
+
+#: homePage/templates/homePage/xjhorse_footer.html:14
+msgid "Task No.5 Horse Industry S&T Innovative Platform Construction"
+msgstr "课题5:马产业科技创新平台建设"
+
+#: homePage/templates/homePage/xjhorse_footer.html:18
+msgid "Program Teams"
+msgstr "课题承担单位"
+
+#: homePage/templates/homePage/xjhorse_footer.html:19
+msgid "Xinjiang Agricultural University"
+msgstr "新疆农业大学"
+
+#: homePage/templates/homePage/xjhorse_footer.html:20
+msgid "Zhaosu Horse Farm of Ili Kazak Autonomous Prefecture"
+msgstr "伊犁哈萨克自治州昭苏马场"
+
+#: homePage/templates/homePage/xjhorse_footer.html:21
+msgid "Ili Stud of Xinjiang Uygur Autonomous Region"
+msgstr "新疆维吾尔自治区地方国营伊犁种马场"
+
+#: homePage/templates/homePage/xjhorse_footer.html:22
+msgid "Zhaosu Western Region Horse Industry LLC"
+msgstr "昭苏县西域马业有限责任公司"
+
+#: homePage/templates/homePage/xjhorse_footer.html:23
+msgid "Xinjiang Horse Industry Association"
+msgstr "新疆马业协会"
+
+#: homePage/templates/homePage/xjhorse_footer.html:27
+msgid "Objectives"
+msgstr "课题目标"
+
+#: homePage/templates/homePage/xjhorse_footer.html:33
+msgid "Copyright © 2017 Xinjiang Agricultural University"
+msgstr "版权所有© 2017 新疆农业大学计算机与信息工程学院"
+
+#: homePage/templates/homePage/xjhorse_nav.html:33
+msgid "Home"
+msgstr "首页"
+
+#: homePage/templates/homePage/xjhorse_nav.html:34
+msgid "Strain"
+msgstr "品系登记"
+
+#: homePage/templates/homePage/xjhorse_nav.html:35
+msgid "Horse Field"
+msgstr "马场管理"
+
+#: homePage/templates/homePage/xjhorse_nav.html:36
+msgid "Auction"
+msgstr "赛马竞拍"
+
+#: homePage/templates/homePage/xjhorse_nav.html:37
+msgid "Racing"
+msgstr "精彩赛事"
+
+#: homePage/templates/homePage/xjhorse_nav.html:42
+msgid "Sign Up"
+msgstr "注册"
+
+#: homePage/templates/homePage/xjhorse_nav.html:44
+msgid "Sign In"
+msgstr "登录"
+
+#: homePage/templates/homePage/xjhorse_nav.html:47
+msgid "Logout"
+msgstr "注销"

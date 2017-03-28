@@ -172,11 +172,11 @@ AUTH_PASSWORD_VALIDATORS = [
 # 网站语言（国际化）
 # https://docs.djangoproject.com/en/1.10/topics/i18n/
 
-LANGUAGE_CODE = 'zh-cn'
+LANGUAGE_CODE = 'zh-hans'
 
 LANGUAGES = (
   ('en-us', 'English'),
-  ('zh-cn', 'Chinese'),
+  ('zh-hans', '简体中文'),
 )
 
 TIME_ZONE = 'Asia/Shanghai'
