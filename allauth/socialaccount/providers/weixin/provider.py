@@ -19,7 +19,7 @@ class WeixinProvider(OAuth2Provider):
     account_class = WeixinAccount
 
     def extract_uid(self, data):
-        return data['openid']
+        return data['unionid']
 
     def get_default_scope(self):
         return ['snsapi_login']
