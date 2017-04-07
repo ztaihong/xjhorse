@@ -40,7 +40,7 @@ msgstr "账号"
 
 #: allauth/account/forms.py:41 allauth/account/forms.py:364
 msgid "You must type the same password each time."
-msgstr "每次输入的密码必须相同"
+msgstr "两次输入的密码必须相同"
 
 #: allauth/account/forms.py:71 allauth/account/forms.py:334
 #: allauth/account/forms.py:442
@@ -507,7 +507,7 @@ msgstr "您可以用您的以下任何第三方账号登录"
 #: allauth/templates/account/login.html:27
 #, python-format
 msgid "If you have not created an account yet, then please<a href=\"%(signup_url)s\">sign up</a>first."
-msgstr "如果农在本网站还没有账号，请先<a href=\"%(signup_url)s\">注册</a> 。"
+msgstr "如果您在本网站还没有账号，请先<a href=\"%(signup_url)s\">注册</a> 。"
 
 #: allauth/templates/account/login.html:35
 msgid "Forgot Password?"
@@ -765,7 +765,7 @@ msgstr "%(site_name)s网站需要将您的%(provider_name)s账号映射为一个
 
 
 
-# 以下为表单输入验证不通过是的提示信息：
+# 以下为表单输入验证不通过时的提示信息：
 
 msgid "This field is required."
 msgstr "这是必填字段，不允许留空"
