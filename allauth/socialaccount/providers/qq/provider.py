@@ -9,7 +9,7 @@ class QqAccount(ProviderAccount):
 
     def to_str(self):
         dflt = super(QqAccount, self).to_str()
-        return self.account.extra_data.get('uname', dflt)
+        return self.account.extra_data.get('nickname', dflt)
 
 
 class QqProvider(OAuth2Provider):

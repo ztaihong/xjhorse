@@ -725,7 +725,7 @@ msgstr "E-mail"
 msgid ""
 "You can sign in to your account using any of the following third party\n"
 "            accounts:"
-msgstr "您可以用您的以下任何第三方账号登录"
+msgstr "您已经绑定了以下第三方账号："
 
 #: allauth/templates/socialaccount/connections.html:39
 msgid "Remove binding"
@@ -737,7 +737,7 @@ msgstr "您的本地账号目前还没有和任何第三方社交网络账号绑
 
 #: allauth/templates/socialaccount/connections.html:50
 msgid "Add a 3rd Party Account"
-msgstr "请选择绑定下列社交网络账号"
+msgstr "您可以选择绑定下列社交网络账号："
 
 #: allauth/templates/socialaccount/login_cancelled.html:6
 #: allauth/templates/socialaccount/login_cancelled.html:10

@@ -6,9 +6,8 @@ from urllib.parse import unquote  # url解码
 
 class TaobaoAccount(ProviderAccount):
     def to_str(self):
-        return self.account.extra_data.get(
-            'uname',
-            super(TaobaoAccount, self).to_str())
+        dflt = super(TaobaoAccount, self).to_str()
+        return unquote(self.account.extra_data['response'].get('taobao_user_nick', dflt))
 
 
 class TaobaoProvider(OAuth2Provider):
@@ -21,13 +20,9 @@ class TaobaoProvider(OAuth2Provider):
         return data['response']['taobao_user_id']
 
     def extract_common_fields(self, data):
-        uid = data['response']['taobao_user_id']
-        nick = data['response']['taobao_user_nick']
-        uname = data['response']['taobao_user_nick']
-        # return dict(uid=data.get('taobao_user_id'), username=data.get('taobao_user_nick'), uname=data.get('taobao_user_nick'))
         return dict(uid=data['response']['taobao_user_id'],
                     username=unquote(data['response']['taobao_user_nick']),
-                    uname=unquote(data['response']['taobao_user_nick']))
+                    email='无法获取账户Email')
 
 
 provider_classes = [TaobaoProvider]
