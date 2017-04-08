@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: django-allauth\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-27 02:13+0800\n"
+"POT-Creation-Date: 2017-04-08 17:30+0800\n"
 "PO-Revision-Date: 2014-08-12 00:36+0200\n"
 "Last-Translator: jresins <jresins@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -341,7 +341,7 @@ msgstr "No access token saved for \"%s\"."
 msgid "No access to private resources at \"%s\"."
 msgstr "无权访问私有资源 \"%s\"。"
 
-#: allauth/socialaccount/providers/qq/provider.py:19
+#: allauth/socialaccount/providers/qq/provider.py:17
 msgid "QQ"
 msgstr "QQ"
 
@@ -395,7 +395,6 @@ msgid "Re-send Verification"
 msgstr "重发验证e-mail"
 
 #: allauth/templates/account/email.html:45
-#: allauth/templates/socialaccount/connections.html:39
 msgid "Remove"
 msgstr "移除"
 
@@ -710,7 +709,17 @@ msgstr "当尝试用您的社交网络账号登录时，发生了一个错误。
 #: allauth/templates/socialaccount/connections.html:6
 #: allauth/templates/socialaccount/connections.html:9
 msgid "Account Connections"
-msgstr "账号链接"
+msgstr "账号绑定"
+
+#: allauth/templates/socialaccount/connections.html:11
+msgid "You already logged with this local account:【UserName:"
+msgstr "您目前登录的本地账户为：【用户名："
+
+#: allauth/templates/socialaccount/connections.html:11
+#, fuzzy
+#| msgid "E-mail"
+msgid "Email"
+msgstr "E-mail"
 
 #: allauth/templates/socialaccount/connections.html:13
 msgid ""
@@ -718,13 +727,17 @@ msgid ""
 "            accounts:"
 msgstr "您可以用您的以下任何第三方账号登录"
 
+#: allauth/templates/socialaccount/connections.html:39
+msgid "Remove binding"
+msgstr "解除绑定"
+
 #: allauth/templates/socialaccount/connections.html:47
-msgid "You currently have no social network accounts connected to this account."
-msgstr "您当前没有任何社交网络账号与此账号关联"
+msgid "You currently have no social network accounts connected to this account, meaning that you can only login in with above local account!"
+msgstr "您的本地账号目前还没有和任何第三方社交网络账号绑定，意味着您只能用上面的本地账号进行登录！"
 
 #: allauth/templates/socialaccount/connections.html:50
 msgid "Add a 3rd Party Account"
-msgstr "添加一个第三方账号"
+msgstr "请选择绑定下列社交网络账号"
 
 #: allauth/templates/socialaccount/login_cancelled.html:6
 #: allauth/templates/socialaccount/login_cancelled.html:10
@@ -763,37 +776,23 @@ msgid ""
 "        %(site_name)s. As a final step, please complete the following form:"
 msgstr "%(site_name)s网站需要将您的%(provider_name)s账号映射为一个本站账户，请填写以下表单来完成本站映射注册："
 
-
-
 # 以下为表单输入验证不通过时的提示信息：
+#~ msgid "This field is required."
+#~ msgstr "这是必填字段，不允许留空"
 
-msgid "This field is required."
-msgstr "这是必填字段，不允许留空"
+#~ msgid "Enter a valid email address."
+#~ msgstr "请输入正确的邮箱"
 
-msgid "Enter a valid email address."
-msgstr "请输入正确的邮箱"
+#~ msgid "Ensure this value has at least %(limit_value)d characters (it has %(show_value)d)."
+#~ msgstr "确保该字段至少包含 %(limit_value)d 个字符(您只输入了 %(show_value)d 个字符)"
 
-msgid ""
-"Ensure this value has at least %(limit_value)d characters (it has "
-"%(show_value)d)."
-msgstr "确保该字段至少包含 %(limit_value)d 个字符(您只输入了 %(show_value)d 个字符)"
+#~ msgid "This password is entirely numeric."
+#~ msgstr "密码全是数字，这是不允许的"
 
-msgid "This password is entirely numeric."
-msgstr "密码全是数字，这是不允许的"
+#~ msgid "Ensure this value has at least %(limit_value)d character (it has %(show_value)d)."
+#~ msgid_plural "Ensure this value has at least %(limit_value)d characters (it has %(show_value)d)."
+#~ msgstr[0] "确保该字段至少包含 %(limit_value)d 个字符(您只输入了 %(show_value)d 个字符)"
 
-msgid ""
-"Ensure this value has at least %(limit_value)d character (it has "
-"%(show_value)d)."
-msgid_plural ""
-"Ensure this value has at least %(limit_value)d characters (it has "
-"%(show_value)d)."
-msgstr[0] ""
-"确保该字段至少包含 %(limit_value)d 个字符(您只输入了 %(show_value)d 个字符)"
-
-msgid ""
-"This password is too short. It must contain at least %(min_length)d "
-"character."
-msgid_plural ""
-"This password is too short. It must contain at least %(min_length)d "
-"characters."
-msgstr[0] "密码长度太短，密码必须包含至少 %(min_length)d 个字符"
+#~ msgid "This password is too short. It must contain at least %(min_length)d character."
+#~ msgid_plural "This password is too short. It must contain at least %(min_length)d characters."
+#~ msgstr[0] "密码长度太短，密码必须包含至少 %(min_length)d 个字符"
