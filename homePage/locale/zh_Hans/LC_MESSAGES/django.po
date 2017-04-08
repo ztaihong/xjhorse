@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-27 02:13+0800\n"
+"POT-Creation-Date: 2017-04-08 17:30+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -147,6 +147,14 @@ msgstr "注册"
 msgid "Sign In"
 msgstr "登录"
 
-#: homePage/templates/homePage/xjhorse_nav.html:47
+#: homePage/templates/homePage/xjhorse_nav.html:50
+msgid "Account binding"
+msgstr "账户绑定"
+
+#: homePage/templates/homePage/xjhorse_nav.html:51
+msgid "Profile"
+msgstr "个人资料"
+
+#: homePage/templates/homePage/xjhorse_nav.html:53
 msgid "Logout"
 msgstr "注销"
