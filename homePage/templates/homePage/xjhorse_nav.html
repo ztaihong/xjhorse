@@ -39,8 +39,6 @@
             <!-- 右对齐 -->
             <ul id="nav-list" class="nav navbar-nav navbar-right">
                 {% if not user.is_authenticated %}
-                    <li id="li_signup"><a id="signup" href="{% url 'account_signup' %}">{% trans "Sign Up" %} <span
-                            class="sr-only">(current)</span></a></li>
                     <li id="li_login"><a id="logoin" href="{% url 'account_login' %}">{% trans "Sign In" %}</a></li>
                 {% else %}
                     <li class="dropdown">
