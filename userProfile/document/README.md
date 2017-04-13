@@ -14,3 +14,4 @@
 ##### 2、在manage.py命令行创建userProfile应用
     startapp userProfile
 
+## 二、创建Model
