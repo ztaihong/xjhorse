@@ -7,3 +7,4 @@ requests-oauthlib>=0.8.0
 defusedxml>=0.5.0
 # django-allauth>=0.31.0      # 用户管理框架，包括注册、登录、账户管理、第三方（社交）账户登录
 django-uuidfield>=0.5.0       # 为django models 提供了UUIDField
+# babel>=2.4.0                  # python国际化和本地化工具包
