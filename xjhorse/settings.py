@@ -70,6 +70,7 @@ INSTALLED_APPS = [
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
+    'django.middleware.locale.LocaleMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
@@ -171,13 +172,42 @@ AUTH_PASSWORD_VALIDATORS = [
 
 # 网站语言（国际化）
 # https://docs.djangoproject.com/en/1.10/topics/i18n/
+from django.conf import global_settings
+gettext_noop = lambda s: s
 
-LANGUAGE_CODE = 'zh-hans'
+LANGUAGE_CODE = 'en-us'
 
 LANGUAGES = (
   ('en-us', 'English'),
   ('zh-hans', '简体中文'),
+  ('ug-ar', 'ئۇيغۇر تىلى'),
+  ('kk-ar', 'قازاق ٴتىلى‎'),
 )
+
+EXTRA_LANG_INFO = {
+    'ug-ar': {
+        'bidi': True,     # 从右到左
+        'code': 'ug-ar',
+        'name': 'Uyghur',
+        'name_local': u'\u0626\u06C7\u064A\u063A\u06C7\u0631 \u062A\u0649\u0644\u0649', #unicode编码
+    },
+    'kk-ar': {
+        'bidi': True,     # 从右到左
+        'code': 'kk-ar',
+        'name': 'Kazakh',
+        'name_local': u'\u0642\u0627\u0632\u0627\u0642\u0634\u0627',# unicode编码
+    },
+}
+# 添加Django未提供的自定义语言
+import django.conf.locale
+laninfo = django.conf.locale.LANG_INFO
+laninfo.update(EXTRA_LANG_INFO)
+django.conf.locale.LANG_INFO = laninfo
+
+# 使用BiDi (从右到左) 布局的语言
+LANGUAGES_BIDI = global_settings.LANGUAGES_BIDI +  ["kk-ar", "ug-ar",]
+
+
 
 TIME_ZONE = 'Asia/Shanghai'
 
