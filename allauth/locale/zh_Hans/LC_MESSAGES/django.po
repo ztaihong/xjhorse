@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: django-allauth\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-08 17:30+0800\n"
+"POT-Creation-Date: 2017-04-19 17:48+0800\n"
 "PO-Revision-Date: 2014-08-12 00:36+0200\n"
 "Last-Translator: jresins <jresins@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -345,7 +345,7 @@ msgstr "无权访问私有资源 \"%s\"。"
 msgid "QQ"
 msgstr "QQ"
 
-#: allauth/socialaccount/providers/taobao/provider.py:16
+#: allauth/socialaccount/providers/taobao/provider.py:15
 msgid "Taobao"
 msgstr "淘宝"
 
@@ -727,15 +727,15 @@ msgid ""
 "            accounts:"
 msgstr "您已经绑定了以下第三方账号："
 
-#: allauth/templates/socialaccount/connections.html:39
+#: allauth/templates/socialaccount/connections.html:41
 msgid "Remove binding"
 msgstr "解除绑定"
 
-#: allauth/templates/socialaccount/connections.html:47
+#: allauth/templates/socialaccount/connections.html:49
 msgid "You currently have no social network accounts connected to this account, meaning that you can only login in with above local account!"
 msgstr "您的本地账号目前还没有和任何第三方社交网络账号绑定，意味着您只能用上面的本地账号进行登录！"
 
-#: allauth/templates/socialaccount/connections.html:50
+#: allauth/templates/socialaccount/connections.html:52
 msgid "Add a 3rd Party Account"
 msgstr "您可以选择绑定下列社交网络账号："
 

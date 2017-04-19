@@ -46,7 +46,7 @@
                            aria-expanded="false">{{ user.email }} <span class="caret"></span></a>
                         <ul class="dropdown-menu">
                             <li><a href="{% url 'socialaccount_connections' %}">{% trans "Account binding" %}</a></li>
-                            <li><a href="#">{% trans "Profile" %}</a></li>
+                            <li><a href="{% url 'profile' %}">{% trans "Profile" %}</a></li>
                             <li><a href="#">{% trans "Developer" %}</a></li>
                             <li role="separator" class="divider"></li>
                             <li><a href="{% url 'account_logout' %}">{% trans "Logout" %}</a></li>
