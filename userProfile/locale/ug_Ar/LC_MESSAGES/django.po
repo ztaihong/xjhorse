@@ -1,0 +1,58 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-04-19 17:48+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: userProfile/apps.py:6
+msgid "User Profile"
+msgstr ""
+
+#: userProfile/models.py:18
+msgid "Language Code"
+msgstr ""
+
+#: userProfile/models.py:19
+msgid "Language name"
+msgstr ""
+
+#: userProfile/models.py:22 userProfile/models.py:30
+msgid "Language"
+msgstr ""
+
+#: userProfile/models.py:23
+msgid "Languages"
+msgstr ""
+
+#: userProfile/models.py:28
+msgid "UserID"
+msgstr ""
+
+#: userProfile/models.py:29
+msgid "User Name"
+msgstr ""
+
+#: userProfile/models.py:31
+msgid "Mobile"
+msgstr ""
+
+#: userProfile/models.py:32
+msgid "Mobile Verified"
+msgstr ""
+
+#: userProfile/models.py:33
+msgid "Address"
+msgstr ""
