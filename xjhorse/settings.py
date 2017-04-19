@@ -65,6 +65,8 @@ INSTALLED_APPS = [
 
      # 新疆马业首页
     'homePage',
+    # 用户个人资料，目前主要为了让用户能够选择自己偏好的语言
+    'userProfile',
 ]
 
 MIDDLEWARE = [

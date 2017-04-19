@@ -23,4 +23,5 @@ urlpatterns = [
     # allauth在django需要以下配置
     url(r'^accounts/', include('allauth.urls')),
     url(r'^', include('homePage.urls')),  # 读入homePage app中的urls.py
+    url(r'^', include('userProfile.urls')),  # 读入homePage app中的urls.py
 ]
