@@ -22,9 +22,6 @@ class Languages(models.Model):
         verbose_name = _('Language')
         verbose_name_plural = _('Languages')
 
-    def __unicode__(self):
-        return self.languageName + "（" + self.localeCode + "）"
-
     def __str__(self):
         return self.languageName + "（" + self.localeCode + "）"
 

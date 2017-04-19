@@ -3,11 +3,13 @@ from . models import UserProfile
 from . forms import UserProfileForm
 from django.views.generic.edit import UpdateView
 from django.utils.translation import LANGUAGE_SESSION_KEY
+from django.contrib.auth.mixins import LoginRequiredMixin
 
 # Create your views here.
 
-class UserProfileView(UpdateView):
+class UserProfileView(LoginRequiredMixin, UpdateView):
     template_name = 'userProfile/userProfile.html'
+    success_url = 'success'
     form_class = UserProfileForm
     model = UserProfile
 
@@ -24,9 +26,23 @@ class UserProfileView(UpdateView):
 
     def form_valid(self, form):
         self.object = form.save(commit=False)
-        self.request.session[LANGUAGE_SESSION_KEY] = self.object.get_language()
-        # Do any custom stuff here
-
+        language = self.object.get_language()
+        self.request.session[LANGUAGE_SESSION_KEY] = language.localeCode
         self.object.save()
 
         return super(UserProfileView, self).form_valid(form)
+
+
+
+from django.http import HttpResponse
+from django.template import loader
+
+
+
+def success(request):
+    profile = UserProfile.objects.get(user = request.user)
+    template = loader.get_template('userProfile/success.html')
+    context = {
+        'profile': profile,
+    }
+    return HttpResponse(template.render(context, request))
