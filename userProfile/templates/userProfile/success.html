@@ -1,0 +1,39 @@
+{% extends "bootstrap/bootstrap.html" %}
+
+{% load i18n %}
+
+
+{% block head_title %}{% trans "User Profile" %}{% endblock %}
+
+{% block inner-content %}
+    <h1>{% trans "User Profile" %}</h1>
+    <hr>
+    <table width="100%" border="2">
+        <tr>
+            <td width="30%">{% trans "UserID" %}</td>
+            <td>{{ profile.user }}</td>
+        </tr>
+        <tr>
+            <td>{% trans "User Name" %}</td>
+            <td>{{ profile.userName }}</td>
+        </tr>
+        <tr>
+            <td>{% trans "Language" %}</td>
+            <td>{{ profile.localeCode }}</td>
+        </tr>
+        <tr>
+            <td>{% trans "Mobile" %}</td>
+            <td>{{ profile.mobile }}</td>
+        </tr>
+        <tr>
+            <td>{% trans "Mobile Verified" %}</td>
+            <td>{{ profile.mobileVerified }}</td>
+        </tr>
+        <tr>
+            <td>{% trans "Address" %}</td>
+            <td>{{ profile.address }}</td>
+        </tr>
+
+    </table>
+
+{% endblock %}
