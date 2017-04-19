@@ -49,9 +49,10 @@
 }
 
 /* 导航栏下拉菜单背景颜色, 与导航栏背景颜色相同，手机模式 */
-.navbar-right > li{
+.navbar-right > li {
     background-color: #00979c;
 }
+
 /** 导航栏菜单、按钮 **/
 #nav-list a {
     color: #fff;
@@ -377,4 +378,9 @@ hr {
     -webkit-box-shadow: 3px 0px 0px #777;
     -moz-box-shadow: 3px 0px 0px #777;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.35);
+}
+
+td {
+    height: 30px;
+    padding: 5px;
 }
