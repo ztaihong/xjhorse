@@ -60,20 +60,20 @@ msgstr ""
 
 #: homePage/templates/homePage/index.html:92
 msgid "Horse Breeds"
-msgstr ""
+msgstr "نەسىل ئۇرۇق"
 
 #: homePage/templates/homePage/index.html:97
 msgid "Disease Prevention"
-msgstr ""
+msgstr "كېسەل"
 
 #: homePage/templates/homePage/index.html:102
 msgid "Bole Classroom"
-msgstr ""
+msgstr "دەرىس خانا"
 
 #: homePage/templates/homePage/xjhorse_base.html:15
 #: homePage/templates/homePage/xjhorse_nav.html:16
 msgid "Xinjiang Horse"
-msgstr ""
+msgstr "شىنجاڭ ئات،كەسىپ"
 
 #: homePage/templates/homePage/xjhorse_footer.html:11
 msgid "Fund Program"
@@ -121,23 +121,23 @@ msgstr ""
 
 #: homePage/templates/homePage/xjhorse_nav.html:33
 msgid "Home"
-msgstr ""
+msgstr "باش بەت"
 
 #: homePage/templates/homePage/xjhorse_nav.html:34
 msgid "Strain"
-msgstr ""
+msgstr "سورت لىنىيەسى"
 
 #: homePage/templates/homePage/xjhorse_nav.html:35
 msgid "Horse Field"
-msgstr ""
+msgstr "ئات فېرمىسى"
 
 #: homePage/templates/homePage/xjhorse_nav.html:36
 msgid "Auction"
-msgstr ""
+msgstr "ئەرزان باھادا ساتماق"
 
 #: homePage/templates/homePage/xjhorse_nav.html:37
 msgid "Racing"
-msgstr ""
+msgstr "بەيگە ئات بەيگىسى"
 
 #: homePage/templates/homePage/xjhorse_nav.html:42
 msgid "Sign In"
@@ -145,16 +145,16 @@ msgstr "خاتىرىلىۋېلىش"
 
 #: homePage/templates/homePage/xjhorse_nav.html:48
 msgid "Account binding"
-msgstr ""
+msgstr "ئىسچوت ئۇلاش"
 
 #: homePage/templates/homePage/xjhorse_nav.html:49
 msgid "Profile"
-msgstr ""
+msgstr "ئىشلەتكۈچىلەر ئۇچۇرى"
 
 #: homePage/templates/homePage/xjhorse_nav.html:50
 msgid "Developer"
-msgstr ""
+msgstr "پىروگراممىچى"
 
 #: homePage/templates/homePage/xjhorse_nav.html:52
 msgid "Logout"
-msgstr ""
+msgstr "تىزىمدىن چىقىرىۋېتىش"

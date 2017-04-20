@@ -36,7 +36,3 @@ class UserProfile(models.Model):
 
     def get_language(self):
         return self.localeCode
-
-
-
-User.profile = property(lambda u: UserProfile.objects.get_or_create(user=u)[0])
