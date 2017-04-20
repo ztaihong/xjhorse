@@ -30,6 +30,8 @@ from .utils import (
     user_username,
 )
 
+from userProfile.models import UserProfile  # 用户资料模型
+from django.utils.translation import LANGUAGE_SESSION_KEY
 
 class PasswordVerificationMixin(object):
     def clean(self):
@@ -165,6 +167,13 @@ class LoginForm(forms.Form):
         ret = perform_login(request, self.user,
                             email_verification=app_settings.EMAIL_VERIFICATION,
                             redirect_url=redirect_url)
+
+        # 设置偏好语言
+        userModel = UserProfile
+        profile = userModel.objects.get(user=request.user)
+        if profile:
+            request.session[LANGUAGE_SESSION_KEY] = profile.get_language().localeCode
+
         remember = app_settings.SESSION_REMEMBER
         if remember is None:
             remember = self.cleaned_data['remember']

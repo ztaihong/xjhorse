@@ -392,6 +392,11 @@ class DefaultAccountAdapter(object):
     def logout(self, request):
         user = request.user
         django_logout(request)
+
+        # 回复操作系统决定的语言
+        from django.utils.translation import LANGUAGE_SESSION_KEY
+        del request.session[LANGUAGE_SESSION_KEY]
+
         user_logged_out.send(
             sender=user.__class__,
             request=request,

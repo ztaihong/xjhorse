@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-19 17:48+0800\n"
+"POT-Creation-Date: 2017-04-20 13:36+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,7 +17,10 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: userProfile/apps.py:6
+#: userProfile/apps.py:6 userProfile/templates/userProfile/success.html:6
+#: userProfile/templates/userProfile/success.html:9
+#: userProfile/templates/userProfile/userProfile.html:6
+#: userProfile/templates/userProfile/userProfile.html:9
 msgid "User Profile"
 msgstr ""
 
@@ -29,7 +32,8 @@ msgstr ""
 msgid "Language name"
 msgstr ""
 
-#: userProfile/models.py:22 userProfile/models.py:30
+#: userProfile/models.py:22 userProfile/models.py:32
+#: userProfile/templates/userProfile/success.html:21
 msgid "Language"
 msgstr ""
 
@@ -37,22 +41,26 @@ msgstr ""
 msgid "Languages"
 msgstr ""
 
-#: userProfile/models.py:28
+#: userProfile/models.py:30 userProfile/templates/userProfile/success.html:13
 msgid "UserID"
 msgstr ""
 
-#: userProfile/models.py:29
+#: userProfile/models.py:31 userProfile/templates/userProfile/success.html:17
 msgid "User Name"
 msgstr ""
 
-#: userProfile/models.py:31
+#: userProfile/models.py:33 userProfile/templates/userProfile/success.html:25
 msgid "Mobile"
 msgstr ""
 
-#: userProfile/models.py:32
+#: userProfile/models.py:34 userProfile/templates/userProfile/success.html:29
 msgid "Mobile Verified"
 msgstr ""
 
-#: userProfile/models.py:33
+#: userProfile/models.py:35 userProfile/templates/userProfile/success.html:33
 msgid "Address"
+msgstr ""
+
+#: userProfile/templates/userProfile/userProfile.html:15
+msgid "Submit"
 msgstr ""

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-19 17:48+0800\n"
+"POT-Creation-Date: 2017-04-20 13:36+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -38,108 +38,108 @@ msgstr ""
 msgid "Accounts"
 msgstr ""
 
-#: allauth/account/forms.py:41 allauth/account/forms.py:364
+#: allauth/account/forms.py:43 allauth/account/forms.py:373
 msgid "You must type the same password each time."
 msgstr ""
 
-#: allauth/account/forms.py:71 allauth/account/forms.py:334
-#: allauth/account/forms.py:442
+#: allauth/account/forms.py:73 allauth/account/forms.py:343
+#: allauth/account/forms.py:451
 msgid "Password"
 msgstr ""
 
-#: allauth/account/forms.py:72
+#: allauth/account/forms.py:74
 msgid "Remember Me"
 msgstr ""
 
-#: allauth/account/forms.py:78
+#: allauth/account/forms.py:80
 msgid "This account is currently inactive."
 msgstr ""
 
-#: allauth/account/forms.py:81
+#: allauth/account/forms.py:83
 msgid "The e-mail address and/or password you specified are not correct."
 msgstr ""
 
-#: allauth/account/forms.py:84
+#: allauth/account/forms.py:86
 msgid "The username and/or password you specified are not correct."
 msgstr ""
 
-#: allauth/account/forms.py:87
+#: allauth/account/forms.py:89
 msgid "The login and/or password you specified are not correct."
 msgstr ""
 
-#: allauth/account/forms.py:96 allauth/account/forms.py:238
-#: allauth/account/forms.py:392 allauth/account/forms.py:461
+#: allauth/account/forms.py:98 allauth/account/forms.py:247
+#: allauth/account/forms.py:401 allauth/account/forms.py:470
 msgid "E-mail address"
 msgstr ""
 
-#: allauth/account/forms.py:98 allauth/account/forms.py:269
-#: allauth/account/forms.py:387 allauth/account/forms.py:456
+#: allauth/account/forms.py:100 allauth/account/forms.py:278
+#: allauth/account/forms.py:396 allauth/account/forms.py:465
 msgid "E-mail"
 msgstr ""
 
-#: allauth/account/forms.py:103 allauth/account/forms.py:106
-#: allauth/account/forms.py:230 allauth/account/forms.py:234
+#: allauth/account/forms.py:105 allauth/account/forms.py:108
+#: allauth/account/forms.py:239 allauth/account/forms.py:243
 msgid "Username"
 msgstr ""
 
-#: allauth/account/forms.py:113
+#: allauth/account/forms.py:115
 msgid "Username or e-mail"
 msgstr ""
 
-#: allauth/account/forms.py:116
+#: allauth/account/forms.py:118
 msgctxt "field label"
 msgid "Login"
 msgstr ""
 
-#: allauth/account/forms.py:258
+#: allauth/account/forms.py:267
 msgid "E-mail (again)"
 msgstr ""
 
-#: allauth/account/forms.py:262
+#: allauth/account/forms.py:271
 msgid "E-mail address confirmation"
 msgstr ""
 
-#: allauth/account/forms.py:272
+#: allauth/account/forms.py:281
 msgid "E-mail (optional)"
 msgstr ""
 
-#: allauth/account/forms.py:314
+#: allauth/account/forms.py:323
 msgid "You must type the same email each time."
 msgstr ""
 
-#: allauth/account/forms.py:337 allauth/account/forms.py:443
+#: allauth/account/forms.py:346 allauth/account/forms.py:452
 msgid "Password (again)"
 msgstr ""
 
-#: allauth/account/forms.py:398
+#: allauth/account/forms.py:407
 msgid "This e-mail address is already associated with this account."
 msgstr ""
 
-#: allauth/account/forms.py:400
+#: allauth/account/forms.py:409
 msgid "This e-mail address is already associated with another account."
 msgstr ""
 
-#: allauth/account/forms.py:422
+#: allauth/account/forms.py:431
 msgid "Current Password"
 msgstr ""
 
-#: allauth/account/forms.py:423 allauth/account/forms.py:512
+#: allauth/account/forms.py:432 allauth/account/forms.py:521
 msgid "New Password"
 msgstr ""
 
-#: allauth/account/forms.py:424 allauth/account/forms.py:513
+#: allauth/account/forms.py:433 allauth/account/forms.py:522
 msgid "New Password (again)"
 msgstr ""
 
-#: allauth/account/forms.py:432
+#: allauth/account/forms.py:441
 msgid "Please type your current password."
 msgstr ""
 
-#: allauth/account/forms.py:470
+#: allauth/account/forms.py:479
 msgid "The e-mail address is not assigned to any user account"
 msgstr ""
 
-#: allauth/account/forms.py:534
+#: allauth/account/forms.py:543
 msgid "The password reset token was invalid."
 msgstr ""
 
