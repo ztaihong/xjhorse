@@ -4,6 +4,7 @@ from . forms import UserProfileForm
 from django.views.generic.edit import UpdateView
 from django.utils.translation import LANGUAGE_SESSION_KEY
 from django.contrib.auth.mixins import LoginRequiredMixin
+from django.contrib.auth.decorators import login_required
 
 # Create your views here.
 
@@ -38,7 +39,7 @@ from django.http import HttpResponse
 from django.template import loader
 
 
-
+@login_required
 def success(request):
     profile = UserProfile.objects.get(user = request.user)
     template = loader.get_template('userProfile/success.html')
