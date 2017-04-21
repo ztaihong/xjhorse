@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-20 13:36+0800\n"
+"POT-Creation-Date: 2017-04-21 19:07+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,43 +20,43 @@ msgstr ""
 #: homePage/templates/homePage/index.html:34
 #: homePage/templates/homePage/xjhorse_footer.html:28
 msgid "Promoting The integration of Internet with Traditional Horse Industries"
-msgstr ""
+msgstr "ئالغا سىلجىتماق ئىنتېرنېت بەرمەك ئەنئەنە ئات مال-مۈلۈك قوشۇلماق"
 
 #: homePage/templates/homePage/index.html:35
 msgid "Horse Industry S&T Innovative Platform"
-msgstr ""
+msgstr "ئات مال-مۈلۈك پەن-تېخنىكا يېڭىلىق ياراتماق سۇپا"
 
 #: homePage/templates/homePage/index.html:43
 #: homePage/templates/homePage/xjhorse_footer.html:29
 msgid "Exploring the New Form of \"Internet + Horse Industry\" Economic Development"
-msgstr ""
+msgstr "تەكشۈرمەك 【ئىنتېرنېت + ئات مال-مۈلۈك】ئىقتىساد تەرەققىيات ئەندىزىسى"
 
 #: homePage/templates/homePage/index.html:44
 msgid "Horserange Information Management System"
-msgstr ""
+msgstr "ئات فېرمىسى ئۇچۇر باشقۇرۇش سىستېمىسى"
 
 #: homePage/templates/homePage/index.html:52
 #: homePage/templates/homePage/xjhorse_footer.html:30
 msgid "Boost Region’s Horse Industry Transformation and Upgrading"
-msgstr ""
+msgstr "ياردەمچى رايون ئات مال-مۈلۈك تىپ ئۆزگەرتىش"
 
 #: homePage/templates/homePage/index.html:53
 msgid "Racing Horse E-commercial Auction Platform"
-msgstr ""
+msgstr "بەيگە ئېلېكتىرونلۇق سودا  سېتىشقا قويماق سۇپا"
 
 #: homePage/templates/homePage/index.html:61
 #: homePage/templates/homePage/index.html:70
 #: homePage/templates/homePage/xjhorse_footer.html:13
 msgid "Horse Industry Upgrading Technological Innovation Program"
-msgstr ""
+msgstr "ئات مال-مۈلۈك سىنىپقا كۆچمەك تېخنىكا يېڭىلىق ياراتماق قۇرۇلۇش"
 
 #: homePage/templates/homePage/index.html:62
 msgid "Xinjiang Horse Strain Registration Platform"
-msgstr ""
+msgstr "شىنجاڭ ئات سورت لىنىيەسى تىزىملىماق سۇپا"
 
 #: homePage/templates/homePage/index.html:71
 msgid "Horse Racing Events and Information Management System"
-msgstr ""
+msgstr "ئات بەيگىسى ئۇچۇر باشقۇرۇش سىستېمىسى"
 
 #: homePage/templates/homePage/index.html:92
 msgid "Horse Breeds"
@@ -77,84 +77,83 @@ msgstr "شىنجاڭ ئات،كەسىپ"
 
 #: homePage/templates/homePage/xjhorse_footer.html:11
 msgid "Fund Program"
-msgstr ""
+msgstr "فوند تارماق؛ پونكىت؛ تۈر"
 
 #: homePage/templates/homePage/xjhorse_footer.html:12
 msgid "Xinjiang Uygur Autonomous Region Key S&T Projects"
-msgstr ""
+msgstr "شىنجاڭ ئۇيغۇر ئاپتونوم رايونى زور پەن-تېخنىكا مەخسۇس تور"
 
 #: homePage/templates/homePage/xjhorse_footer.html:14
 msgid "Task No.5 Horse Industry S&T Innovative Platform Construction"
-msgstr ""
+msgstr "ۋەزىپە 5 ئات مال-مۈلۈك پەن-تېخنىكا يېڭىلىق ياراتماق سۇپا"
 
 #: homePage/templates/homePage/xjhorse_footer.html:18
 msgid "Program Teams"
-msgstr ""
+msgstr "مەسىلە ئەزا"
 
 #: homePage/templates/homePage/xjhorse_footer.html:19
-msgid "Xinjiang Agricultural University"
-msgstr ""
+msgid "①Xinjiang Agricultural University"
+msgstr "①شىنجاڭ يېزا ئىگىلىك ئۇنىۋېرسىتېت"
 
 #: homePage/templates/homePage/xjhorse_footer.html:20
-msgid "Zhaosu Horse Farm of Ili Kazak Autonomous Prefecture"
-msgstr ""
+msgid "②Zhaosu Horse Farm of Ili Kazak Autonomous Prefecture"
+msgstr "②ئىلى قازاق ئاپتونوم ئوبلاستى موڭغۇلكۈرە ئات فېرمىسى"
 
 #: homePage/templates/homePage/xjhorse_footer.html:21
-msgid "Ili Stud of Xinjiang Uygur Autonomous Region"
-msgstr ""
+msgid "③Ili Stud of Xinjiang Uygur Autonomous Region"
+msgstr "③شىنجاڭ ئۇيغۇر ئاپتونوم رايونى ئىلى نەسىللىك ئات فېرمىسى"
 
 #: homePage/templates/homePage/xjhorse_footer.html:22
-msgid "Zhaosu Western Region Horse Industry LLC"
-msgstr ""
+msgid "④Zhaosu Western Region Horse Industry LLC"
+msgstr "④موڭغۇلكۈرە غەربىي يۇرت ئات مال-مۈلۈك چەكلىك مەسئۇلىيەت شىركىتى"
 
 #: homePage/templates/homePage/xjhorse_footer.html:23
-msgid "Xinjiang Horse Industry Association"
-msgstr ""
+msgid "⑤Xinjiang Horse Industry Association"
+msgstr "⑤شىنجاڭ ئات مال-مۈلۈك جەمئىيەت"
 
 #: homePage/templates/homePage/xjhorse_footer.html:27
 msgid "Objectives"
-msgstr ""
+msgstr "تارماق؛ پونكىت؛ تۈر نىشان"
 
 #: homePage/templates/homePage/xjhorse_footer.html:33
 msgid "Copyright © 2017 Xinjiang Agricultural University"
-msgstr ""
+msgstr "نەشر ھوقۇقىغا ئىگىدارلىق قىلىش © 2017 شىنجاڭ يېزا ئىگىلىك ئۇنىۋېرسىتېت"
 
 #: homePage/templates/homePage/xjhorse_nav.html:33
-msgid "Home"
-msgstr "باش بەت"
-
-#: homePage/templates/homePage/xjhorse_nav.html:34
 msgid "Strain"
 msgstr "سورت لىنىيەسى"
 
-#: homePage/templates/homePage/xjhorse_nav.html:35
+#: homePage/templates/homePage/xjhorse_nav.html:34
 msgid "Horse Field"
 msgstr "ئات فېرمىسى"
 
-#: homePage/templates/homePage/xjhorse_nav.html:36
+#: homePage/templates/homePage/xjhorse_nav.html:35
 msgid "Auction"
 msgstr "ئەرزان باھادا ساتماق"
 
-#: homePage/templates/homePage/xjhorse_nav.html:37
+#: homePage/templates/homePage/xjhorse_nav.html:36
 msgid "Racing"
 msgstr "بەيگە ئات بەيگىسى"
 
-#: homePage/templates/homePage/xjhorse_nav.html:42
+#: homePage/templates/homePage/xjhorse_nav.html:41
 msgid "Sign In"
 msgstr "خاتىرىلىۋېلىش"
 
-#: homePage/templates/homePage/xjhorse_nav.html:48
+#: homePage/templates/homePage/xjhorse_nav.html:47
 msgid "Account binding"
 msgstr "ئىسچوت ئۇلاش"
 
-#: homePage/templates/homePage/xjhorse_nav.html:49
+#: homePage/templates/homePage/xjhorse_nav.html:48
 msgid "Profile"
 msgstr "ئىشلەتكۈچىلەر ئۇچۇرى"
 
-#: homePage/templates/homePage/xjhorse_nav.html:50
+#: homePage/templates/homePage/xjhorse_nav.html:49
 msgid "Developer"
 msgstr "پىروگراممىچى"
 
-#: homePage/templates/homePage/xjhorse_nav.html:52
+#: homePage/templates/homePage/xjhorse_nav.html:51
 msgid "Logout"
 msgstr "تىزىمدىن چىقىرىۋېتىش"
+
+#~ msgid "Home"
+#~ msgstr "باش بەت"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-20 13:36+0800\n"
+"POT-Creation-Date: 2017-04-21 19:07+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -92,24 +92,24 @@ msgid "Program Teams"
 msgstr "课题承担单位"
 
 #: homePage/templates/homePage/xjhorse_footer.html:19
-msgid "Xinjiang Agricultural University"
-msgstr "新疆农业大学"
+msgid "①Xinjiang Agricultural University"
+msgstr "①新疆农业大学"
 
 #: homePage/templates/homePage/xjhorse_footer.html:20
-msgid "Zhaosu Horse Farm of Ili Kazak Autonomous Prefecture"
-msgstr "伊犁哈萨克自治州昭苏马场"
+msgid "②Zhaosu Horse Farm of Ili Kazak Autonomous Prefecture"
+msgstr "②伊犁哈萨克自治州昭苏马场"
 
 #: homePage/templates/homePage/xjhorse_footer.html:21
-msgid "Ili Stud of Xinjiang Uygur Autonomous Region"
-msgstr "新疆维吾尔自治区地方国营伊犁种马场"
+msgid "③Ili Stud of Xinjiang Uygur Autonomous Region"
+msgstr "③新疆维吾尔自治区地方国营伊犁种马场"
 
 #: homePage/templates/homePage/xjhorse_footer.html:22
-msgid "Zhaosu Western Region Horse Industry LLC"
-msgstr "昭苏县西域马业有限责任公司"
+msgid "④Zhaosu Western Region Horse Industry LLC"
+msgstr "④昭苏县西域马业有限责任公司"
 
 #: homePage/templates/homePage/xjhorse_footer.html:23
-msgid "Xinjiang Horse Industry Association"
-msgstr "新疆马业协会"
+msgid "⑤Xinjiang Horse Industry Association"
+msgstr "⑤新疆马业协会"
 
 #: homePage/templates/homePage/xjhorse_footer.html:27
 msgid "Objectives"
@@ -120,41 +120,37 @@ msgid "Copyright © 2017 Xinjiang Agricultural University"
 msgstr "版权所有© 2017 新疆农业大学计算机与信息工程学院"
 
 #: homePage/templates/homePage/xjhorse_nav.html:33
-msgid "Home"
-msgstr "首页"
-
-#: homePage/templates/homePage/xjhorse_nav.html:34
 msgid "Strain"
 msgstr "品系登记"
 
-#: homePage/templates/homePage/xjhorse_nav.html:35
+#: homePage/templates/homePage/xjhorse_nav.html:34
 msgid "Horse Field"
 msgstr "马场管理"
 
-#: homePage/templates/homePage/xjhorse_nav.html:36
+#: homePage/templates/homePage/xjhorse_nav.html:35
 msgid "Auction"
 msgstr "赛马竞拍"
 
-#: homePage/templates/homePage/xjhorse_nav.html:37
+#: homePage/templates/homePage/xjhorse_nav.html:36
 msgid "Racing"
 msgstr "精彩赛事"
 
-#: homePage/templates/homePage/xjhorse_nav.html:42
+#: homePage/templates/homePage/xjhorse_nav.html:41
 msgid "Sign In"
 msgstr "登录"
 
-#: homePage/templates/homePage/xjhorse_nav.html:48
+#: homePage/templates/homePage/xjhorse_nav.html:47
 msgid "Account binding"
 msgstr "账户绑定"
 
-#: homePage/templates/homePage/xjhorse_nav.html:49
+#: homePage/templates/homePage/xjhorse_nav.html:48
 msgid "Profile"
 msgstr "个人资料"
 
-#: homePage/templates/homePage/xjhorse_nav.html:50
+#: homePage/templates/homePage/xjhorse_nav.html:49
 msgid "Developer"
 msgstr "开发人员"
 
-#: homePage/templates/homePage/xjhorse_nav.html:52
+#: homePage/templates/homePage/xjhorse_nav.html:51
 msgid "Logout"
 msgstr "注销"

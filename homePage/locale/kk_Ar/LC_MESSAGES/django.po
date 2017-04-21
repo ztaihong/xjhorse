@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-20 13:36+0800\n"
+"POT-Creation-Date: 2017-04-21 19:07+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -92,23 +92,23 @@ msgid "Program Teams"
 msgstr ""
 
 #: homePage/templates/homePage/xjhorse_footer.html:19
-msgid "Xinjiang Agricultural University"
+msgid "①Xinjiang Agricultural University"
 msgstr ""
 
 #: homePage/templates/homePage/xjhorse_footer.html:20
-msgid "Zhaosu Horse Farm of Ili Kazak Autonomous Prefecture"
+msgid "②Zhaosu Horse Farm of Ili Kazak Autonomous Prefecture"
 msgstr ""
 
 #: homePage/templates/homePage/xjhorse_footer.html:21
-msgid "Ili Stud of Xinjiang Uygur Autonomous Region"
+msgid "③Ili Stud of Xinjiang Uygur Autonomous Region"
 msgstr ""
 
 #: homePage/templates/homePage/xjhorse_footer.html:22
-msgid "Zhaosu Western Region Horse Industry LLC"
+msgid "④Zhaosu Western Region Horse Industry LLC"
 msgstr ""
 
 #: homePage/templates/homePage/xjhorse_footer.html:23
-msgid "Xinjiang Horse Industry Association"
+msgid "⑤Xinjiang Horse Industry Association"
 msgstr ""
 
 #: homePage/templates/homePage/xjhorse_footer.html:27
@@ -120,41 +120,37 @@ msgid "Copyright © 2017 Xinjiang Agricultural University"
 msgstr ""
 
 #: homePage/templates/homePage/xjhorse_nav.html:33
-msgid "Home"
-msgstr ""
-
-#: homePage/templates/homePage/xjhorse_nav.html:34
 msgid "Strain"
 msgstr ""
 
-#: homePage/templates/homePage/xjhorse_nav.html:35
+#: homePage/templates/homePage/xjhorse_nav.html:34
 msgid "Horse Field"
 msgstr ""
 
-#: homePage/templates/homePage/xjhorse_nav.html:36
+#: homePage/templates/homePage/xjhorse_nav.html:35
 msgid "Auction"
 msgstr ""
 
-#: homePage/templates/homePage/xjhorse_nav.html:37
+#: homePage/templates/homePage/xjhorse_nav.html:36
 msgid "Racing"
 msgstr ""
 
-#: homePage/templates/homePage/xjhorse_nav.html:42
+#: homePage/templates/homePage/xjhorse_nav.html:41
 msgid "Sign In"
 msgstr "ەستەلىككە الۋ"
 
-#: homePage/templates/homePage/xjhorse_nav.html:48
+#: homePage/templates/homePage/xjhorse_nav.html:47
 msgid "Account binding"
 msgstr ""
 
-#: homePage/templates/homePage/xjhorse_nav.html:49
+#: homePage/templates/homePage/xjhorse_nav.html:48
 msgid "Profile"
 msgstr ""
 
-#: homePage/templates/homePage/xjhorse_nav.html:50
+#: homePage/templates/homePage/xjhorse_nav.html:49
 msgid "Developer"
 msgstr ""
 
-#: homePage/templates/homePage/xjhorse_nav.html:52
+#: homePage/templates/homePage/xjhorse_nav.html:51
 msgid "Logout"
 msgstr ""
