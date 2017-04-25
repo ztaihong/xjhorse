@@ -384,3 +384,8 @@ td {
     height: 30px;
     padding: 5px;
 }
+
+/*长字符串自动绕行*/
+.wrap-string{
+    word-wrap: break-word;
+}

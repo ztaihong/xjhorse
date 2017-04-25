@@ -67,6 +67,9 @@ INSTALLED_APPS = [
     'homePage',
     # 用户个人资料，目前主要为了让用户能够选择自己偏好的语言
     'userProfile',
+
+    'oauth2_provider',       # 授权服务提供者
+    'corsheaders',           # 跨域授权
 ]
 
 MIDDLEWARE = [
@@ -78,9 +81,11 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'corsheaders.middleware.CorsMiddleware',                        # 跨域授权
 ]
 
 ROOT_URLCONF = 'xjhorse.urls'
+CORS_ORIGIN_ALLOW_ALL = True                                        # 跨域授权（允许来自所有域的请求）
 
 # allauth在django需要以下配置
 SITE_ID = 1
