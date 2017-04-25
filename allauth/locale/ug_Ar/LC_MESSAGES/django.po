@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-21 19:07+0800\n"
+"POT-Creation-Date: 2017-04-25 13:07+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -486,7 +486,7 @@ msgstr ""
 
 #: allauth/templates/account/login.html:7
 #: allauth/templates/account/login.html:13
-#: allauth/templates/account/login.html:34
+#: allauth/templates/account/login.html:36
 msgid "Sign In"
 msgstr ""
 
@@ -496,10 +496,12 @@ msgstr ""
 
 #: allauth/templates/account/login.html:27
 #, python-format
-msgid "If you have not created an account yet, then please<a href=\"%(signup_url)s\">sign up</a>first."
+msgid ""
+"If you have not created an account yet, then please\n"
+"                    <a href=\"%(signup_url)s\">sign up</a>first."
 msgstr ""
 
-#: allauth/templates/account/login.html:35
+#: allauth/templates/account/login.html:37
 msgid "Forgot Password?"
 msgstr ""
 
@@ -678,6 +680,10 @@ msgstr ""
 msgid ""
 "<strong>Note:</strong> you can still <a href=\"%(email_url)s\">change your e-mail address</a>\n"
 "        ."
+msgstr ""
+
+#: allauth/templates/bootstrap/bootstrap.html:11
+msgid "Xinjiang Horse"
 msgstr ""
 
 #: allauth/templates/openid/login.html:10

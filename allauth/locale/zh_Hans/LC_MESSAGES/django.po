@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: django-allauth\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-21 19:07+0800\n"
+"POT-Creation-Date: 2017-04-25 13:07+0800\n"
 "PO-Revision-Date: 2014-08-12 00:36+0200\n"
 "Last-Translator: jresins <jresins@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -495,7 +495,7 @@ msgstr "e-mail验证链接失效或无效。请点击 <a href=\"%(email_url)s\">
 
 #: allauth/templates/account/login.html:7
 #: allauth/templates/account/login.html:13
-#: allauth/templates/account/login.html:34
+#: allauth/templates/account/login.html:36
 msgid "Sign In"
 msgstr "登录"
 
@@ -504,11 +504,14 @@ msgid "You can sign in to your account using any of the following third party ac
 msgstr "您可以用您的以下任何第三方账号登录"
 
 #: allauth/templates/account/login.html:27
-#, python-format
-msgid "If you have not created an account yet, then please<a href=\"%(signup_url)s\">sign up</a>first."
+#, fuzzy, python-format
+#| msgid "If you have not created an account yet, then please<a href=\"%(signup_url)s\">sign up</a>first."
+msgid ""
+"If you have not created an account yet, then please\n"
+"                    <a href=\"%(signup_url)s\">sign up</a>first."
 msgstr "如果您在本网站还没有账号，请先<a href=\"%(signup_url)s\">注册</a> 。"
 
-#: allauth/templates/account/login.html:35
+#: allauth/templates/account/login.html:37
 msgid "Forgot Password?"
 msgstr "忘记密码了？"
 
@@ -692,6 +695,10 @@ msgid ""
 "<strong>Note:</strong> you can still <a href=\"%(email_url)s\">change your e-mail address</a>\n"
 "        ."
 msgstr "<strong>注意:</strong> 您仍然能够<a href=\"%(email_url)s\">修改您的e-mail地址 </a>."
+
+#: allauth/templates/bootstrap/bootstrap.html:11
+msgid "Xinjiang Horse"
+msgstr ""
 
 #: allauth/templates/openid/login.html:10
 msgid "OpenID Sign In"

@@ -24,9 +24,11 @@
 
         <div class="{% if socialaccount_providers %}col-md-7 col-lg-7 {% else %} col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3 {% endif %}">
             <form class="login" method="POST" action="{% url 'account_login' %}">
-                <p>{% blocktrans %}If you have not created an account yet, then please<a href="{{ signup_url }}">sign up</a>first.{% endblocktrans %}</p>
+                <p>{% blocktrans %}If you have not created an account yet, then please
+                    <a href="{{ signup_url }}">sign up</a>first.{% endblocktrans %}</p>
                 {% csrf_token %}
                 {% bootstrap_form form %}
+                <input type="hidden" name="next" value="{{ next }}"/>
                 {% if redirect_field_value %}
                     <input type="hidden" name="{{ redirect_field_name }}" value="{{ redirect_field_value }}"/>
                 {% endif %}
