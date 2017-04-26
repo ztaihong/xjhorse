@@ -20,9 +20,9 @@ from django.views.generic import TemplateView
 urlpatterns = [
 
     url(r'^admin/', admin.site.urls),
-    # allauth在django需要以下配置
-    url(r'^accounts/', include('allauth.urls')),
-    url(r'^', include('homePage.urls')),  # 读入homePage app中的urls.py
-    url(r'^', include('userProfile.urls')),  # 读入homePage app中的urls.py
-    url(r'^oauth2/', include('oauth2_provider.urls', namespace='oauth2_provider')),
+    url(r'^accounts/', include('allauth.urls')),                                     # allauth在django需要以下配置
+    url(r'^', include('homePage.urls')),                                             # 读入homePage app中的urls.py
+    url(r'^', include('userProfile.urls')),                                          # 读入userProfile app中的urls.py
+    url(r'^oauth2/', include('oauth2_provider.urls', namespace='oauth2_provider')),  # oauth2 urls
+    url(r'^', include('userApi.urls')),                                              # 读入userApi app中的urls.py
 ]

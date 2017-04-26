@@ -82,5 +82,9 @@ class ApplicationUpdate(ApplicationOwnerIsUserMixin, UpdateView):
         return modelform_factory(
             get_application_model(),
             fields=('name', 'client_id', 'client_secret', 'client_type',
-                    'authorization_grant_type', 'redirect_uris')
+                    'authorization_grant_type', 'redirect_uris'),
+            widgets={
+                'client_secret': Textarea(attrs={'cols': 80, 'rows': 2}),
+                'redirect_uris': Textarea(attrs={'cols': 80, 'rows': 2}),
+            }
         )

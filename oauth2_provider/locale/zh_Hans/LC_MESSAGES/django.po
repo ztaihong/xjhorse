@@ -28,19 +28,19 @@ msgstr "公开"
 
 #: oauth2_provider/models.py:54
 msgid "Authorization code"
-msgstr "授权码"
+msgstr "授权码模式（Authorization code）"
 
 #: oauth2_provider/models.py:55
 msgid "Implicit"
-msgstr "隐式"
+msgstr "简化模式（Implicit）"
 
 #: oauth2_provider/models.py:56
 msgid "Resource owner password-based"
-msgstr "基于资源所有者密码的认证"
+msgstr "密码模式（Resource owner password-based）"
 
 #: oauth2_provider/models.py:57
 msgid "Client credentials"
-msgstr "App客户秘钥"
+msgstr "客户端模式（Client credentials）"
 
 #: oauth2_provider/models.py:61
 #: oauth2_provider/templates/oauth2_provider/application_detail.html:10

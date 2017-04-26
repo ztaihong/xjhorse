@@ -591,39 +591,39 @@ model</ColNames>
       <DataType>varchar(100)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="152" parent="17" name="redirect_uris">
+    <column id="152" parent="17" name="client_type">
       <Position>2</Position>
-      <DataType>text|0</DataType>
+      <DataType>varchar(32)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="153" parent="17" name="client_type">
+    <column id="153" parent="17" name="authorization_grant_type">
       <Position>3</Position>
       <DataType>varchar(32)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="154" parent="17" name="authorization_grant_type">
+    <column id="154" parent="17" name="client_secret">
       <Position>4</Position>
-      <DataType>varchar(32)|0</DataType>
+      <DataType>varchar(255)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="155" parent="17" name="client_secret">
+    <column id="155" parent="17" name="name">
       <Position>5</Position>
       <DataType>varchar(255)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="156" parent="17" name="name">
+    <column id="156" parent="17" name="user_id">
       <Position>6</Position>
-      <DataType>varchar(255)|0</DataType>
-      <NotNull>1</NotNull>
+      <DataType>integer|0</DataType>
     </column>
     <column id="157" parent="17" name="skip_authorization">
       <Position>7</Position>
       <DataType>bool|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="158" parent="17" name="user_id">
+    <column id="158" parent="17" name="redirect_uris">
       <Position>8</Position>
-      <DataType>integer|0</DataType>
+      <DataType>text|0</DataType>
+      <NotNull>1</NotNull>
     </column>
     <index id="159" parent="17" name="sqlite_autoindex_oauth2_provider_application_1">
       <ColNames>client_id</ColNames>

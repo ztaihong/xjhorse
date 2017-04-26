@@ -8,7 +8,7 @@ from rest_framework import serializers
 class UserSerializer(serializers.ModelSerializer):
     class Meta:
         model = User
-        fields = ('password', 'first_name', 'last_name', 'email',)
+        fields = ('username', 'first_name', 'last_name', 'email', 'password',)
         write_only_fields = ('password',)
         read_only_fields = ('is_staff', 'is_superuser', 'is_active', 'date_joined',)
 
@@ -18,8 +18,3 @@ class UserSerializer(serializers.ModelSerializer):
         user = super(UserSerializer, self).restore_object(attrs, instance)
         user.set_password(attrs['password'])
         return user
-
-class UserInfoSerializer(serializers.ModelSerializer):
-    class Meta:
-        model = User
-        fields = ('username', 'email')

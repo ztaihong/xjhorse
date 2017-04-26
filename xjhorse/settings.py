@@ -70,7 +70,24 @@ INSTALLED_APPS = [
 
     'oauth2_provider',       # 授权服务提供者
     'corsheaders',           # 跨域授权
+    'rest_framework',        # RESTful WebService, Django轻量级Web服务框架
 ]
+
+# 指定 Django轻量级Web服务框架使用新的后台认证服务
+REST_FRAMEWORK = {
+    'DEFAULT_AUTHENTICATION_CLASSES': (
+        'oauth2_provider.ext.rest_framework.OAuth2Authentication',
+    ),
+    'DEFAULT_PERMISSION_CLASSES': (
+        'rest_framework.permissions.IsAuthenticated',
+    )
+}
+
+OAUTH2_PROVIDER = {
+    # this is the list of available scopes
+    'SCOPES': {'read': 'Read scope', 'write': 'Write scope'}
+}
+
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
