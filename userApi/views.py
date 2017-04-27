@@ -6,18 +6,37 @@ from django.http import JsonResponse
 from rest_framework import permissions, viewsets
 from rest_framework.decorators import api_view
 from rest_framework.permissions import AllowAny
-
+from rest_framework import generics
 from oauth2_provider.ext.rest_framework import TokenHasReadWriteScope
-from . serializers import UserSerializer
+from . serializers import UserSerializer, UserProfileSerializer
 from . permissions import IsStaffOrTargetUser
+from userProfile.models import UserProfile
+
 
 @api_view(['GET'])
-def current_user(request):
+def currentUser(request):
     user = request.user
     return JsonResponse({
         'username': user.username,
         'email': user.email
     })
+
+@api_view(['GET'])
+def currentUserProfile(request):
+    user = request.user
+    return JsonResponse({
+        'username': user.username,
+        'email': user.email
+    })
+
+class currentUserProfile(generics.ListAPIView):
+    serializer_class = UserProfileSerializer
+
+    def get_queryset(self):
+        #该视图将返回当前登录用户的附加信息
+
+        current_user = self.request.user
+        return UserProfile.objects.filter(user=current_user)
 
 
 class UserView(viewsets.ModelViewSet):

@@ -3,12 +3,13 @@
 
 from django.contrib.auth.models import User
 from rest_framework import serializers
+from userProfile.models import UserProfile
 
 
 class UserSerializer(serializers.ModelSerializer):
     class Meta:
         model = User
-        fields = ('username', 'first_name', 'last_name', 'email', 'password',)
+        fields = ('id', 'username', 'first_name', 'last_name', 'email', 'password',)
         write_only_fields = ('password',)
         read_only_fields = ('is_staff', 'is_superuser', 'is_active', 'date_joined',)
 
@@ -18,3 +19,8 @@ class UserSerializer(serializers.ModelSerializer):
         user = super(UserSerializer, self).restore_object(attrs, instance)
         user.set_password(attrs['password'])
         return user
+
+class UserProfileSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = UserProfile
+        fields = '__all__'

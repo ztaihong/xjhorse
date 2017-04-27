@@ -1,6 +1,6 @@
 from django.conf.urls import url, include
 from rest_framework import routers
-from . views import UserView, current_user
+from . views import UserView, currentUser, currentUserProfile
 
 router = routers.DefaultRouter()
 router.register(r'users', UserView, 'list')
@@ -9,5 +9,6 @@ router.register(r'users', UserView, 'list')
 # Additionally, we include login URLs for the browsable API.
 urlpatterns = [
     url(r'^api/', include(router.urls)),
-    url(r'^api/getUserInfo', current_user, name = 'userInfo'),
+    url(r'^api/getUserInfo', currentUser, name = 'userInfo'),
+    url(r'^api/getUserProfile', currentUserProfile.as_view(), name = 'userProfile'),
 ]
