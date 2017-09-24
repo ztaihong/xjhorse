@@ -8,5 +8,5 @@ defusedxml>=0.5.0             # 预防xml bomb攻击
 # django-allauth>=0.31.0      # 用户管理框架，包括注册、登录、账户管理、第三方（社交）账户登录。直接使用源代码，作为本项目的一个App对待，名称为allauth
 django-uuidfield>=0.5.0       # 为django models 提供了UUIDField
 djangorestframework>=3.6.2    # 基于Django的REST框架
-#django-oauth-toolkit>=0.12.0  # Django OAuth2工具包。直接使用源代码，作为本项目的一个App对待，名称为oauth2_provider
+#django-oauth-toolkit>=0.12.0 # Django OAuth2工具包。直接使用源代码，作为本项目的一个App对待，名称为oauth2_provider
 django-cors-middleware>=1.3.1 # 跨域授权
