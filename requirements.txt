@@ -1,12 +1,12 @@
-django>=1.10.6                # Web App框架
-django-bootstrap3>=8.2.1      # 让django模板输出Bootstrap 3代码以满足响应式设计要求
-oauthlib>=2.0.2               # 开放网络授权（authorization）标准库
-python3-openid>=3.1.0         # 分布式网络认证库
-requests>=2.13.0              # HTTP请求
-requests-oauthlib>=0.8.0      # 开放网络授权HTTP请求
-defusedxml>=0.5.0             # 预防xml bomb攻击
-# django-allauth>=0.31.0      # 用户管理框架，包括注册、登录、账户管理、第三方（社交）账户登录。直接使用源代码，作为本项目的一个App对待，名称为allauth
-django-uuidfield>=0.5.0       # 为django models 提供了UUIDField
-djangorestframework>=3.6.2    # 基于Django的REST框架
+django==1.10.6                # Web App框架
+django-bootstrap3==8.2.1      # 让django模板输出Bootstrap 3代码以满足响应式设计要求
+oauthlib==2.0.2               # 开放网络授权（authorization）标准库
+python3-openid==3.1.0         # 分布式网络认证库
+requests==2.13.0              # HTTP请求
+requests-oauthlib==0.8.0      # 开放网络授权HTTP请求
+defusedxml==0.5.0             # 预防xml bomb攻击
+# django-allauth==0.31.0      # 用户管理框架，包括注册、登录、账户管理、第三方（社交）账户登录。直接使用源代码，作为本项目的一个App对待，名称为allauth
+django-uuidfield==0.5.0       # 为django models 提供了UUIDField
+djangorestframework==3.6.2    # 基于Django的REST框架
 #django-oauth-toolkit>=0.12.0 # Django OAuth2工具包。直接使用源代码，作为本项目的一个App对待，名称为oauth2_provider
-django-cors-middleware>=1.3.1 # 跨域授权
+django-cors-middleware==1.3.1 # 跨域授权
