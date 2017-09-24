@@ -32,7 +32,8 @@ class UserProfile(models.Model):
     localeCode = models.ForeignKey(Languages, verbose_name=_("Language"))                                 # 偏好语言代码
     mobile = models.CharField(max_length=15, verbose_name=_("Mobile"))                                    # 手机号码
     mobileVerified = models.BooleanField(default=False, blank=False, verbose_name=_("Mobile Verified"))   # 手机号码是否通过短信验证
-    address = models.TextField(max_length=200, verbose_name=_("Address"))                                 # 通讯地址
+    address = models.TextField(max_length=200, verbose_name=_("Address"))
+    # 通讯地址
 
     def get_language(self):
         return self.localeCode

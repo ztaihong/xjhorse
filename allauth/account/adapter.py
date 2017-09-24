@@ -388,6 +388,13 @@ class DefaultAccountAdapter(object):
                                      backend.__class__.__name__])
             user.backend = backend_path
         django_login(request, user)
+        # 设置偏好语言
+        from userProfile.models import UserProfile  # 用户资料模型
+        from django.utils.translation import LANGUAGE_SESSION_KEY
+        userModel = UserProfile
+        profile = userModel.objects.get(user=request.user)
+        if profile:
+            request.session[LANGUAGE_SESSION_KEY] = profile.get_language().localeCode
 
     def logout(self, request):
         user = request.user
