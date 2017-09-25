@@ -391,10 +391,13 @@ class DefaultAccountAdapter(object):
         # 设置偏好语言
         from userProfile.models import UserProfile  # 用户资料模型
         from django.utils.translation import LANGUAGE_SESSION_KEY
-        userModel = UserProfile
-        profile = userModel.objects.get(user=request.user)
-        if profile:
+        from django.core.exceptions import ObjectDoesNotExist
+        try:
+            userModel = UserProfile
+            profile = userModel.objects.get(user=request.user)
             request.session[LANGUAGE_SESSION_KEY] = profile.get_language().localeCode
+        except ObjectDoesNotExist:
+            request.session[LANGUAGE_SESSION_KEY] = 'zh-hans'
 
     def logout(self, request):
         user = request.user
