@@ -10,7 +10,8 @@ https://docs.djangoproject.com/en/1.10/howto/deployment/wsgi/
 import os
 
 from django.core.wsgi import get_wsgi_application
+from dj_static import Cling                                             # 处理静态文件的第三方包
 
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "xjhorse.settings")
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "xjhorse.settings")     # 缺省的项目设置文件
 
-application = get_wsgi_application()
+application = Cling(get_wsgi_application())                             # 处理静态文件

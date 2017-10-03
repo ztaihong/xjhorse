@@ -103,6 +103,15 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'xjhorse.urls'
 CORS_ORIGIN_ALLOW_ALL = True                                        # 跨域授权（允许来自所有域的请求）
+X_FRAME_OPTIONS = 'DENY'                                            # 点击劫持保护
+CSRF_COOKIE_HTTPONLY = True                                         # 防止恶意JavaScript绕过CSRF保护
+SECURE_CONTENT_TYPE_NOSNIFF = True                                  # 禁止浏览器尝试猜测内容的类型
+SECURE_BROWSER_XSS_FILTER = True                                    # 跨站脚本保护
+# SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')       # 使用https协议
+# SECURE_HSTS_SECONDS = 3600
+# SECURE_SSL_REDIRECT = True
+# SESSION_COOKIE_SECURE = True
+# CSRF_COOKIE_SECURE = True
 
 # allauth在django需要以下配置
 SITE_ID = 1
